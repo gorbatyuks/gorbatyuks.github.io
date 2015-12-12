@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Economica:700,400);
+div{
+    display:inline-block;
+    background-color: #a64dff;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+        }
+ul{
+    width: 900px;
+    margin:auto;
+    text-align:center;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-left:8px;
+    text-align:center;
+}
+a{
+    display: block;
+    font-family: Economica;
+    font-weight: bold;
+    font-size:20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+a:hover{
+    background-color:#eee;
+    color: #a0a0a2;}
+.rightFloat{
+    float: right;
+    margin-right: 60px;
+    margin-top: -43px;
+}
+.pager a {
+    display: inline-block;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #824993;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.pager>a:hover {
+    background-color:#a23bd2;
+    color: #ffffff;
+    border: 2px solid #7c12bc;
+}
+span{
+    vertical-align: bottom;
+}
+a.bot{
+    border: none;
+    border: 2px solid transparent;
+}

@@ -1,0 +1,272 @@
+body {
+    background-color: #fff;
+    margin: 20px 0 0;
+    font-family: Arial, sans-serif;
+}
+
+#iddisin,
+#iddilog {
+    position: relative;
+    width: 500px;
+    height:360px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 1px solid #afafaf;
+    background-color: #ececec;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+#iddisin {
+    position: absolute;
+    z-index: 2;
+    top: -1px;
+    left: -1px;
+    display: none;
+    padding-bottom: 0;
+
+}
+
+#iddisin:target {
+    display: block;
+
+}
+
+#idselan {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 115px;
+    z-index: 5;
+}
+
+#idh1tit,
+#idh1titl{
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #6e6150;
+    text-align: left;
+    margin-left: 190px;
+
+}
+#iddiico,
+#iddiicon{
+    position: absolute;
+    top:35px;
+    left:130px;
+    border: 10px solid #6e6150;
+    border-radius: 50%;
+
+    padding: 5px 10px;
+
+
+
+}
+/*
+#idh1tit:before {
+    content: "u";
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 10px solid #6e6150;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}*/
+
+#iddiico:after,
+#iddiicon:after{
+    content: "";
+    width: 11px;
+    height: 23px;
+    border-top: 15px solid #ececec;
+    border-bottom: 15px solid #ececec;
+    position: absolute;
+    left: 11px;
+    top: -11px;
+
+    z-index: 1;
+}
+
+#idinmai,
+#idinpas,
+#idinnam,
+#idinlas,
+#idinema {
+    width: 270px;
+    height: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 85px;
+    border-radius: 5px;
+    border: 1px solid #d2d4dc;
+}
+#idinmai:hover,
+#idinpas:hover,
+#idinnam:hover,
+#idinlas:hover,
+#idinema:hover,
+#idinbir:hover{
+    background-color: #f7f7f7;
+
+}
+#iddicov:hover,
+#idinsin:hover,
+#idinsub:hover
+{
+    background: linear-gradient(to bottom, #0b0908, #8b8072);
+}
+
+#idinmai:focus,
+#idinpas:focus,
+#idinnam:focus,
+#idinlas:focus,
+#idinema:focus{
+    background-color: #f6f6f6;
+}
+
+#idinmai {
+    margin-bottom: 10px;
+}
+
+#idlamai,
+#idlapas,
+#idlanam,
+#idlalas,
+#idlaema {
+    position: absolute;
+    width: 85px;
+    height: 23px;
+    left: 112px;
+    padding-top: 7px;
+    border-radius: 5px 0 0 5px;
+    background: linear-gradient(to bottom, #6e6150, #9b8e7c);
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+#idinmai,
+#idinpas,
+#idinsup{
+    margin-bottom:20px;
+}
+#idhrlin{
+
+    margin: 25px 0 ;
+}
+#idinnam,
+#idinlas,
+#idinema {
+    margin-bottom: 5px;
+}
+
+#idlabir,
+#idspsex,
+#idlasel {
+    font-weight: 700;
+    color: #9b8e7c;
+}
+
+#idspsex {
+     margin-right: 35px;
+    margin-left: 0;
+}
+
+#idinbir {
+    border-radius: 5px;
+    border: 1px solid #d2d4dc;
+    margin: 0 0 5px 5px;
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    color: #9b8e7c;
+    font-size: 14px;
+}
+
+#idlaman,
+#idlawom,
+#idlarul {
+    color: #9b8e7c;
+}
+
+
+#idinpas {
+    margin-bottom: 20px;
+}
+
+#idinsub,
+#idinsin{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #6e6150;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #6e6150, #9b8e7c);
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#idlache {
+    margin-right: 45px;
+    font-size: 12px;
+}
+
+#idinche {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+}
+
+#idarem,
+#idasin {
+    font-size: 12px;
+    color: #6e6150;
+}
+
+#idarem:before {
+    content: url(../image/spling.png);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#idasin:before {
+    content: url(../image/user_man_m.png);
+    margin: 0 10px 0 30px;
+    vertical-align: middle;
+}
+
+#idlarul {
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+#idinrul {
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+#idinsin {
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#iddicov{
+    display: inline-block;
+    overflow: hidden;
+    height: 30px;
+    width: 185px;
+    background: linear-gradient(to bottom, #6e6150, #9b8e7c);
+    border-radius:5px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 5px 0 5px 40px;
+    color:#fff;
+    font-size: 16px;
+    padding-top:5px;
+    cursor: pointer;
+
+}
+#idinsel{
+    visibility: hidden;
+}

@@ -1,0 +1,38 @@
+
+p:first-of-type{
+    font-size: large;
+}
+p:last-of-type{
+    color:#999;
+}
+
+ a[href^="http"] {
+     color: #f70;
+ }
+a[href$="google.com"]{
+    color:#666;
+}
+[target^="_blank"]:after {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 5px;
+    height: 12px;
+    width: 14px;
+    content: "\2197";
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+table,
+td
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+tr:nth-child(2n){ background: #ddebf7;}
+td:nth-child(2n+3){background: #f2f2de;}
+

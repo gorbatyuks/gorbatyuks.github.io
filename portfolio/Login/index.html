@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link type="text/css" rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+<div id="iddilog">
+    <select name="naselan" id="idselan">
+
+    </select>
+    <div id="iddisin">
+        <div id="iddiico">U</div>
+        <h1 id="idh1titl">Регистрация</h1>
+        <form action="#singup" method="post">
+            <label for="idinnam" id="idlanam">Имя</label>
+            <input type="text" name="nainnam" id="idinnam" />
+            <br/>
+            <label for="idinlas" id="idlalas">Фамилия</label>
+            <input type="text" name="nainlas" id="idinlas" />
+            <br/>
+            <label for="idinema" id="idlaema">Email</label>
+            <input type="email" name="nainema" id="idinema" />
+            <br/>
+            <label for="idinbir" id="idlabir">Дата рождения</label>
+            <input type="date" name="nainbir" id="idinbir" />
+            <br/>
+
+            <span id="idspsex">Пол</span>
+            <input type="radio" name="nainsex" id="idinman" value="man" />
+            <label for="idinman" id="idlaman">Мужчина</label>
+            <input type="radio" name="nainsex" id="idinwom" value="woman" />
+            <label for="idinwom" id="idlawom">Женщина</label>
+            <br/>
+
+            <label for="idinsel" id="idlasel">Фото
+                <div id="iddicov">
+                    выберите файл
+                    <input type="file" name="nainsel" id="idinsel">
+                </div>
+            </label>
+            <br/>
+            <input type="checkbox" name="nainrul" id="idinrul" />
+            <label for="idinrul" id="idlarul">Согласен с правилами</label>
+
+            <input type="submit" value="Отправить" id="idinsin" />
+
+        </form>
+    </div>
+    <div id="iddiicon">U</div>
+    <h1 id="idh1tit">Вход</h1>
+    <form action="#idfoact" method="post">
+        <label id="idlamai" for="idinmai">Email</label>
+        <input type="text" name="nainmai" id="idinmai" />
+        <br/>
+        <label id="idlapas" for="idinpas">Пароль</label>
+        <input type="password" name="nainpas" id="idinpas" />
+        <br/>
+
+        <input type="checkbox" name="nainche" id="idinche" checked/>
+        <label for="idinche" id="idlache">Запомнить меня</label>
+
+        <input id="idinsub" type="submit" value="Войти" />
+    </form>
+    <hr id="idhrlin" />
+    <a id="idarem" href="">Напомнить пароль</a> <a id="idasin" href="#iddisin">Регистрация</a>
+</div>
+
+
+</body>
+</html>

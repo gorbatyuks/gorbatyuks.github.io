@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./styles/bootstrap.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <title>Advansed1</title>
+    <style>
+        @font-face {
+            font-family: Lato-Light;
+            src: url(fonts/Lato-Light.woff);
+        }
+        @font-face {
+            font-family: "Myriad Pro";
+            src: url(fonts/MyriadProRegular.woff);
+        }
+        @font-face {
+            font-family: "Lato-Black";
+            src: url(fonts/Lato-Black.woff2);
+        }
+        a{text-decoration: none;
+        color:#414042; }
+        .back{
+            display: block;
+            text-align: center;
+            font-family: "Lato";
+
+        }
+        .taskSeven{
+            display: block;
+            font-size: 55px;
+            color: #FFFFFF;
+            background-color: #414042;
+            width: 1480px;
+            height: 210px;
+                   }
+        .download{
+         display: block;
+         /*position: relative;
+         bottom: 20px;*/
+         background-color: #4bcaff;
+         font-size: 15px;
+         color: #414042;
+         width: 196px;
+         height: 41px;
+         border-radius: 8px;
+         padding: 20px 10px 40px 10px;
+         margin: auto;
+         box-shadow: 0px 4px 0px 0px #277697;
+        }
+        .taskSeven>div{
+            position: relative;
+            top: 20px;
+        }
+        .taskFour{
+            display: block;
+            height: 550px;
+            width: 1480px;
+            background-image: url("image/imageVideo.png");
+            font-size: 48px;
+            color: #FFFFFF;
+                    }
+        .secondP{
+            font-size: 18px;
+            font-family: Myriad Pro;
+        }
+        .icon{
+            position: relative;
+            left: 680px;
+            top: 160px;
+            border-style: solid;
+            border-width: 2px;
+            border-color:#FFFFFF ;
+            border-radius: 8px;
+            width: 116px;
+            height: 75px;
+        }
+        .play{
+            width: 0;
+            height: 0;
+            border: 30px solid;
+            border-color:transparent transparent transparent #fff;
+            position: relative;
+            left: 45px;
+            top: 5px;
+                        }
+        .taskFour p {
+            position: relative;
+            top: 160px;
+            line-height: 1.2;
+            font-family: "Lato";
+        }
+        .taskSix{
+            display: block;
+            width: 1480px;
+            height: 380px;
+            background-color: #F9F9F9;
+            border-top: 1px solid #E7E7E7;
+            text-align: left;
+            color: #4BCAFF;
+            font-size: 14px;
+            font-family: "Myriad Pro";
+        }
+        .taskSix>img{
+            float: left;
+            position: relative;
+            top: 100px;
+            left: 510px;
+        }
+        .taskSix>span{
+            position: relative;
+            left: 500px;
+            top: 40px;
+            font-size: 36px;
+            color: #414042;
+            text-align: left;
+        }
+        .taskSix>p{
+            color: #4BCAFF;
+            font-size: 14px;
+            font-family: "Myriad Pro";
+            position: relative;
+            left: 530px;
+            top: 80px;
+        }
+        .taskSix>div{
+            text-align: right;
+            font-family: cursive;
+            position: relative;
+            top: 70px;
+            right: 475px;
+        }
+        .taskSix .menu{
+            display: inline-block;
+            position: relative;
+            top: 90px;
+            left: 675px;
+                       }
+        a.knopa.activ{background-color: #4BCAFF;
+            opacity: 1;}
+        a.knopa{
+            display: inline-block;
+            width: 50px;
+            height: 6px;
+            background-color: #4BCAFF;
+            position: relative;
+            margin-left: 10px;
+            opacity: 0.322;
+        }
+        .taskTwo{
+        display: block;
+        background-color: #F9F9F9;
+        border-bottom: 1px solid #E7E7E7;
+        height: 580px;
+        width: 1480px;
+    }
+        .firstP{
+        position: relative;
+        top: 20px;
+        color: #414042;
+        font-size: 36px;
+        font-family: Lato-Black;
+    }
+        .thirdP{
+        color: #414042;
+        font-size: 20px;
+        font-family: Lato;
+                }
+        .row{
+        margin: 60px 30px 0px 30px;
+        font-size: 13px;
+         }
+        .row p{
+        color:#838383;
+    }
+        .headMult{
+        color:#4BCAFF;
+    }
+        .taskThree{
+            display: block;
+            width: 1480px;
+            height: auto;
+            padding-bottom: 40px;
+        }
+        .screenName{
+            display: block;
+            width: 270px;
+            height: 50px;
+            padding-top: 15px;
+            border-radius:0 0 5px 5px;
+            font-size: 15px;
+            color: #4BCAFF;
+            font-weight: bold;
+            position: relative;
+            top: -50px;
+            left: 28px;
+            background-color: rgb(65, 64, 66);
+            opacity: 0.651;
+             }
+        .plus{
+            position: absolute;
+            top: 70px;
+            left: 165px;
+        }
+        .taskEight{
+            display: block;
+            height: auto;
+            width: 1480px;
+        }
+        .contact{
+            display: inline-block;
+            text-align: center;
+            background-color: rgba(75, 202, 255, 0.8);
+            box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+            width: 324px;
+            height: 460px;
+            position: relative;
+            top: -570px;
+            border-radius: 5px;
+        }
+        .contact input{
+            text-align: center;
+            font-size: 14px;
+            font-family: "Arial";
+            color: rgb(211, 211, 211);
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.06);
+            width: 270px;
+            height: 34px;
+        }
+        textarea{
+            text-align: center;
+            font-size: 14px;
+            font-family: "Arial";
+            color: rgb(211, 211, 211);
+            border-radius: 5px;
+            padding-top: 10px;
+            width: 270px;
+            height: 145px;
+        }
+        .contact h1{
+            font-size: 36px;
+            font-family: "Lato";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        .contact .subm{
+            background-color: rgb(65, 64, 66);
+            box-shadow: 0px 4px 0px 0px rgba(49, 48, 50, 0.004);
+            width: 190px;
+            height: 45px;
+            font-size: 15px;
+            font-family: "Lato";
+            color: rgb(114, 179, 204);
+            font-weight: bold;
+            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+            border-radius: 5px;
+
+        }
+        .footer{
+            position: relative;
+            bottom: 460px;
+            display: block;
+            width: 1480px;
+            height: 110px;
+            background-color: rgb(65, 64, 66);
+            font-size: 12px;
+            font-family: "Myriad Pro";
+            color: rgba(255, 255, 255, 0.251);
+
+        }
+        .footOne{
+            float: left;
+            position: relative;
+            top: 45px;
+            left: 155px;
+        }
+        .footTwo{
+        float: right;
+        position: relative;
+        right: 324px;
+        top: 45px;
+        }
+        .taskOne{
+            display: block;
+            width: 1480px;
+            height: 800px;
+            background-color: rgb(65, 64, 66);
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="back">
+    <div class="taskOne">
+
+    </div>
+    <div class="taskTwo">
+    <p class="firstP">summarise the features</p>
+        <p class="thirdP">summarise what your product is all about</p>
+
+        <div class="row">
+            <div class="col-md-3">
+                <img src="image/item1.png"/>
+                <h3>ATTRACTIVE LAYOUT</h3>
+                <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta
+                    nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="image/item2.png"/>
+                <h3>Fresh Design</h3>
+                <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta
+                    nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="image/item3.png"/>
+            <h3 class="headMult">MULTIPURPOSE</h3>
+                <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta
+                    nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="image/item4.png"/>
+                <h3>EASY TO CUSTOMIZE</h3>
+                <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta
+                    nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+            </div>
+        </div>
+    </div>
+    <div class="taskThree">
+        <p class="firstP"><b>show the gallery</b></p>
+        <p class="thirdP">summarise what ypur product is all about</p>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="image/screen1.png" class="activImage"/><br/>
+                <img src="image/icon.png" class="plus"/>
+                <span class="screenName">SCREEN SHOT #1</span>
+
+                <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
+                    elerisque mi id faucibus iaculis vitae pulvinar.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="image/screen.png"/><br/>
+                <span class="screenName">SCREEN SHOT #2</span>
+                <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
+                    elerisque mi id faucibus iaculis vitae pulvinar.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="image/screen.png"/><br/>
+                <span class="screenName">SCREEN SHOT #3</span>
+                <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
+                    elerisque mi id faucibus iaculis vitae pulvinar.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="image/screen.png"/><br/>
+                <span class="screenName">SCREEN SHOT #4</span>
+                <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
+                    elerisque mi id faucibus iaculis vitae pulvinar.</p>
+            </div>
+        </div>
+    </div>
+    <div class="taskFour">
+        <div class="icon">
+        <div class="play"></div>
+        </div>
+        <div>
+        <p><span> Watch the best Technology in</span> <strong>Action</strong> </p>
+        <p class="secondP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus<br/>
+        ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi<br/>
+        fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+        </div>
+    </div>
+    <div class="taskSix">
+        <img src="image/ImageFace.png">
+        <span>Testimonials</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+    Praesent lobortis lectus eget libero blandit venenatis.<br/>
+    In blandit tortor vel congue malesuada. Suspendisse<br/>
+    molestie lobortis lorem dignissim pretium.<br/>
+    <div>John Doe<br/>
+    from some company</div></p>
+        <div class="menu"><a  href="somewere" class="knopa activ"></a><a  href="somewere" class="knopa"></a><a  href="somewere" class="knopa"></a></div>
+
+    </div>
+    <div class="taskSeven">
+        <div>Do you Like this app?<br/>
+        <a href="#" class="download"><b>DOWNLOAD NOW</b></a> </div>
+    </div>
+    <div class="taskEight">
+        <img src="image/map.png"><br/>
+        <form class="contact">
+            <h1>Contact</h1>
+           <p><input type="text" name="firstName" value="Your name"/></p>
+           <p><input type="email" name="male" value="Your email"/></p>
+           <p><input type="text" name="subject" value="Subject"/></p>
+           <p><textarea rows="10" cols="30" name="textArea">Message</textarea></p>
+           <p><input type="submit" value="Send"  class="subm"></p>
+
+        </form>
+    </div>
+    <div class="footer">
+        <span class="footOne">Copyright © 2013 | bazinger | All Rights Reserved</span>
+        <span class="footTwo">Terms of Service | Privacy Policy</span>
+    </div>
+
+</div>
+</body>
+</html>

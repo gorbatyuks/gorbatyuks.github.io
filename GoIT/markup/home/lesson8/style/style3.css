@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100%;
+    background-image: url("http://svistanet.com/wp-content/uploads/2014/11/foto-tyulpani-03.jpg");
+    background-repeat: no-repeat;
+}
+.serch {
+    position: relative;
+    height: 60px;
+    width: 80%;
+    min-width: 400px;
+    background-color: #fc6;
+    background: -webkit-linear-gradient(top, #fc6, #ffffff);
+    background: linear-gradient(to bottom, #fc6, #ffffff);
+    padding: 5px;
+    margin: 10px auto 0;
+}
+.find {
+    position: relative;
+    height: 60px;
+    width: 80%;
+    min-width: 400px;
+    background-color: #0c6;
+    padding: 5px;
+    margin: 10px auto 0;
+}
+.sov {
+    border-bottom: 1px dotted;
+}
+table {
+    min-width: 200px;
+}
+.first_td {
+    width: 90%;
+}
+.second_td {
+    padding: 0;
+    margin: 0;
+}
+.field_to_write {
+    width: 100%;
+    min-width: 50px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 2em;
+    overflow: hidden;
+}
+
+.send {
+    float: right;
+    height: 38px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #ededed;
+    margin: 0 30px 0 10px;
+}
+
+td.second_td:after {
+    content: "";
+    display: inline-block;
+    width:35px;
+    height:35px;
+    background-color:#fc6;
+    background: -webkit-linear-gradient(top left, #fc6, #ffffff);
+    background: linear-gradient(to bottom right, #fc6, #ffffff);
+    -webkit-transform: matrix(-1, 1, 1, 1, 18, 17);
+    -ms-transform: matrix(-1, 1, 1, 1, 18, 17);
+    transform: matrix(-1, 1, 1, 1, 18, 17);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+td.third_td:after {
+    content: "";
+    display: inline-block;
+    width:35px;
+    height:35px;
+    background-color:#0c6;
+    -webkit-transform: matrix(-1, 1, 1, 1, 18, 17);
+    -ms-transform: matrix(-1, 1, 1, 1, 18, 17);
+    transform: matrix(-1, 1, 1, 1, 18, 17);
+    position: absolute;
+    right: 0;
+    top: 0;
+}

@@ -1,0 +1,31 @@
+body,
+.nav_item
+{   color: #333;
+    border-right: 2px dotted #ccc;
+}
+
+#menu_search
+{
+    background-color: #ce0000;
+}
+.nav_item:hover,
+.header_logo-red{
+    color: #ce0000;
+    border-color: #333;
+}
+.hidden_button{
+    color: black;
+    background-color: #ce0000;
+}
+.header_icon_network,
+.header_icon_link{
+    color: #ccc;
+}
+
+.header_icon_network:hover{
+    border-color: #ce0000;
+    background-color: #ce0000;
+
+}
+.header_icon_network:hover .header_icon_link{
+    color: #fff;}
