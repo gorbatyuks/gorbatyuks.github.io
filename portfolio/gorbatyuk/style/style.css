@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 768px) {
+.wrapper{
+    overflow: scroll;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    color: #fff;
+    background-color: #000;
+    align-content: space-between;
+   }
+    .wrapper > * {
+        padding: 10px;
+        flex: 1 100%;
+    }
+
+.header{
+    background-color: #000;
+    padding: 0 1em;
+    position: fixed;
+    display: flex;
+    flex: 1 100%;
+    justify-content: space-between;
+    width: 100%;
+    }
+.headNav{
+    padding-top: 10px;
+
+}
+.navItem{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+   /* display: inline-block;*/
+
+    border-bottom: 4px solid #000 ;
+    padding: 0.5em 0.3em;
+}
+    .navItem:hover{
+        border-bottom: 3px solid #fff ;
+
+    }
+
+.main{
+    overflow: hidden;
+    padding: 1em;
+    flex: 1 100%;
+    margin-top:4em;
+    padding-top: 10em;
+    background: url("http://lorempixel.com/output/technics-q-g-1460-900-7.jpg") no-repeat;
+    background-color: #000;
+    background-size: 100%;
+    height:  36.5em;
+
+     }
+.mainText{
+    text-align: right;
+    font-size: 1.5em;
+}
+.productList{
+    /*display: flex;
+    flex-wrap: wrap;*/
+    margin-top:4em;
+}
+.productItem{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+
+}  .productCard, .productFotoList{
+      /* border: 1px solid white;*/
+       padding: 10px;
+      }
+       .productCard{
+           flex:1;
+            min-width: 490px;
+
+        }
+        .productFotoList{
+            flex: 1;
+            min-width: 490px;
+
+        }
+
+.productCardImage{
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+    .productCardDescription{
+        padding: 40px 10px 0 0;
+    }
+.footer{
+    background-color: #000;
+    flex: 1 100%;
+    padding: 1em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+      }
+
+.footerRights{
+    font-size: 0.8em;
+}
+.footerContact:after{
+    content: url(../image/facebook.png);
+    position: relative;
+    right: 5px;
+    bottom: -10px;
+}
+/*.logo{
+  flex-grow:1
+}
+nav{
+  flex-grow:4;
+}*/
+/*.headNav{
+    align-self:flex-end;
+}*/
+li{
+    display: inline-block;
+}
+.submenu{
+    left:0;
+    right:0;
+    position: absolute;
+    display: none;
+    text-align: center;
+    list-style-type: none;
+}
+/*li:hover  a {
+    background-color:#eee;
+    color: #a0a0a2;
+    display: block;
+}*/
+/*
+body{
+    background: url("../image/backGroundImage_mob.jpg") bottom no-repeat;
+    color: #fff;
+    width: 480px;
+    margin: auto;
+    border: 1px solid #fff;
+}
+.head{
+    position:fixed;
+    top: 0;
+    display: inline-block;
+    width:inherit;
+    border: 1px solid red;
+    padding: 0.5em;
+    background: #000;
+
+}
+.headLogo{
+    display: inline-block;
+    width: 180px;
+    height: 57px;
+    border: 1px solid yellow;
+}
+.headNav{
+    float: right;
+
+    border: 1px solid green;
+}
+nav{ border: 1px dashed ;
+    height: 50px}
+section{
+    margin-top: 80px;
+}*/
+}
