@@ -2,68 +2,263 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
-    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <title>Antica Natura. Натуральные напольные покрития</title>
+    <link href="style/styleProduct.css" rel="stylesheet" type="text/css">
 </head>
 <body class="wrapper">
-    <header class="header">
-        <div  class="headLogo">
-         <img src="image/logo.png" alt="Antica Natura logo"/>
-         </div>
-         <nav class="headNav" role="custom-dropdown" >
-        <!-- <input type="checkbox" id="button">
-         <label for="button" onclick></label>-->
-             <a class="navItem" href="index.html">Главная</a>
-             <a class="navItem" href="product.html">Продукция</a>
-             <ul class="submenu">
-                 <li><a href="#">Инженерная доска</a></li>
-                <li><a href="#">Массивная доска</a></li>
-                 <li><a href="#">Модульный паркет</a></li>
-                 <li><a href="#">Террасная доска</a></li>
-                 <li><a href="#">Изделия под заказ</a></li>
-            </ul>
+<header class="header">
+    <div  class="headLogo">
+        <img src="image/logo.png" alt="Antica Natura logo"/>
+    </div>
+    <nav class="headNav" >
+
+        <a class="navItem" href="index.html">Главная</a>
+        <a class="navItem headNavSub" href="product.html">Продукция</a>
+        <ul class="subMenu">
+            <li><a class="navItem" href="product.html#engBoard">Инженерная доска</a></li>
+            <li><a class="navItem" href="#">Массивная доска</a></li>
+            <li><a class="navItem" href="#">Модульный паркет</a></li>
+            <li><a class="navItem" href="#">Террасная доска</a></li>
+            <li><a class="navItem" href="#">Изделия под заказ</a></li>
+        </ul>
+
         <a class="navItem" href="#">Портфолио</a>
         <a class="navItem" href="#">О компании</a>
         <a class="navItem" href="#">Информация</a>
-        <a class="navItem" href="#">Контакты</a>
+        <a class="navItem" href="contact.html">Контакты</a>
+
     </nav>
-    </header>
+</header>
 <section class="productList">
-    <div class="productItem">
-      <div class="productCard">
+    <span id="engBoard"></span>
+    <div class="productContainer">
 
-              <h2>Инженерная доска</h2>
-              <img class="productCardImage" src="http://lorempixel.com/output/cats-q-g-400-280-3.jpg" alt=""/>
+        <div class="productItem">
+
+            <h3 class="sectionName"> <!--<a name="engBoard"--> Инженерная доска<!--</a>--></h3>
+            <img class="productCardImage" src="image/ingFoto.png" alt="Инженерная доска"/>
+            <div class="productCardDescription">
+                <p class="productCardText"> Верхний слой - цельная ламель из ценной породы древесины, толщиной 4 мм. </p>
+                <p>Нижний слой - одостойкая фанера.</p>
+                <h4 id="h4">         Характеристики:</h4>
+                <ul class="productListReference">
+                <li>Длина: от 300 до 2000 мм</li>
+                <li>Ширина: 100, 140, 160, 200 мм</li>
+                <li>Толщина: 9, 12, 15, 18 мм</li>
+                   </ul>
+            </div>
+            <div>
+                <h4> Преимущества:</h4>
+                <ol type="1" class="productlistAdvantage">
+                    <li> Стабильность геометрических размеров при изменении условий окружающей среды.</li>
+                    <li> Нижний слой из более твердой водостойкой березовой фанеры.</li>
+                    <li> Возможность укладки на пол с подогревом.</li>
+                    <li> Монтаж на подготовленное бетонное основание.</li>
+                </ol></div>
+        </div>
+        <div class="productItem productColor">
+
+            <div class="gallery_item">
+                <div class="gallery_item_link">
+                    <a class="gallery_item_link_zoom" href="#openModal"></a>
+                </div>
+                <div class="gallery_item_fone"> 321</div>
+                <div class="base">
+                    <img src="image/321_m.png" />
+                </div>
+            </div>
+            <div id="openModal" class="Window">
+                <div>
+                    <a href="#close" title="Закрыть" class="close">X</a>
+                    <img src="image/321_b.png">
+                </div>
+            </div>
+
+            <div class="gallery_item">
+                <div class="gallery_item_link">
+                    <a class="gallery_item_link_zoom" href="#openModal1"></a>
+                </div>
+                <div class="gallery_item_fone"> Берлин</div>
+                <div class="base">
+                    <img src="image/berlin_m.png" />
+                </div>
+            </div>
+            <div id="openModal1" class="Window">
+                <div>
+                    <a href="#close" title="Закрыть" class="close">X</a>
+                    <img src="image/berlin.jpg">
+                </div>
+            </div>
+
+            <div class="gallery_item">
+                <div class="gallery_item_link">
+                    <a class="gallery_item_link_zoom" href="#openModal2"></a>
+                </div>
+                <div class="gallery_item_fone"> Выбеленый</div>
+                <div class="base">
+                    <img src="image/whitening_m.png" />
+                </div>
+            </div>
+            <div id="openModal2" class="Window">
+                <div>
+                    <a href="#close" title="Закрыть" class="close">X</a>
+                    <img src="image/whitening.jpg">
+                </div>
+           </div>
+
+
+            <div class="gallery_item">
+                    <div class="gallery_item_link">
+                        <a class="gallery_item_link_zoom" href="#openModal4"></a>
+                    </div>
+                    <div class="gallery_item_fone"> Сибір</div>
+                    <div class="base">
+                        <img src="image/sibir_m.png" />
+                    </div>
+                </div>
+            <div id="openModal4" class="Window">
+                    <div>
+                        <a href="#close" title="Закрыть" class="close">X</a>
+                        <img src="image/sibir.jpg">
+                    </div>
+                </div>
+
+        </div>
+        <div class="productItemBottomSection">
+            <hr class="horisontalLine">
+            <h2 class="bottomSectionName">Дополнительные опции</h2>
+            <div class="productItem bottomSectionIcon">
+                <img src="image/nonstand.png" alt=""/>
+               <p> Нестандартная фаска</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="image/notch.png" alt=""/><p>Пропилы на поверхности</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="" alt="" style="width: 97px; height: 99px"/><p>Волнистое строгание</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="image/brushing.png" alt=""/>
+                <p>Глубокое брашированик</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="image/aging.png" alt=""/><p>Искуственное состаривание</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="" alt="" style="width: 97px; height: 99px"/><p>Индивидуальный подбор цвета</p></div>
+            </div>
+        <hr class="horisontalLine">
+
+    </div>
+    <!-- Массивная доска -->
+    <div class="productContainer" id="MasBoard">
+        <div class="productItem" >
+            <h3 class="sectionName"> <a name="engBoard"> Массивная доска</a></h3>
               <div class="productCardDescription">
-      <p> Верхний слой - цельная ламель из ценной породы древесины, толщиной 4 мм. </p>
-          <p>Нижний слой - одостойкая фанера.</p>
-         <h4>         Характеристики:</h4>
-          <p>Длина: от 300 до 2000 мм</p>
-          <p>Ширина: 100, 140, 160, 200 мм</p>
-          <p> Толщина: 9, 12, 15, 18 мм</p></div>
-        <div>
-         <h4> Преимущества:</h4>
-          <ol type="1">
-              <li> Стабильность геометрических размеров при изменении условий окружающей среды.</li>
-              <li> Нижний слой из более твердой водостойкой березовой фанеры.</li>
-              <li> Возможность укладки на пол с подогревом.</li>
-              <li> Монтаж на подготовленное бетонное основание.</li>
-          </ol></div>
+                  Массивная доска - одно из самых популярных напольных покрытий, широко применяемое в отделочных работах.
+                  Как следует из самого названия, массивная доска, изготавливается из цельной древесины одной породы дерева –
+                  именно это отличает ее от многослойной паркетной доски. Массивная доска изготавливается из экологически чистого материала
+                  (древесина твердолиственных пород), имеет долгий срок службы и неприхотлива в уходе. К тому же,
+                  натуральное дерево прекрасно смотрится в любом интерьере, а разнообразие пород древесины позволяет
+                  подобрать напольное покрытие из массивной доски по своему вкусу.
+                </div>
+            <div class="productCardDescription">
+                <h4 id="h4">         Характеристики:</h4>
+                                <ul class="productListReference">
+                    <li>Длина: от 300 до 2000 мм</li>
+                    <li>Ширина: 100, 140, 160, 200 мм</li>
+                    <li>Толщина: 16, 20 мм</li>
+                </ul>
+            </div>
+        </div>
+        <div class="productItem productColor">
+
+            <div class="gallery_item">
+                <div class="gallery_item_link">
+                    <a class="gallery_item_link_zoom" href="#openModal3"></a>
+                </div>
+                <div class="gallery_item_fone"> Агат</div>
+                <div class="base">
+                    <img src="image/agat_m.png" />
+                </div>
+            </div>
+            <div id="openModal3" class="Window">
+                <div>
+                    <a href="#close" title="Закрыть" class="close">X</a>
+                    <img src="image/agat.jpg">
+                </div>
+            </div>
+
+            <div class="gallery_item">
+                <div class="gallery_item_link">
+                    <a class="gallery_item_link_zoom" href="#openModal5"></a>
+                </div>
+                <div class="gallery_item_fone"> Берлин</div>
+                <div class="base">
+                    <img src="image/berlin_m.png" />
+                </div>
+            </div>
+            <div id="openModal5" class="Window">
+                <div>
+                    <a href="#close" title="Закрыть" class="close">X</a>
+                    <img src="image/berlin.jpg">
+                </div>
+            </div>
+
+            <div class="gallery_item">
+                <div class="gallery_item_link">
+                    <a class="gallery_item_link_zoom" href="#openModal6"></a>
+                </div>
+                <div class="gallery_item_fone"> Выбеленый</div>
+                <div class="base">
+                    <img src="image/whitening_m.png" />
+                </div>
+            </div>
+            <div id="openModal6" class="Window">
+                <div>
+                    <a href="#close" title="Закрыть" class="close">X</a>
+                    <img src="image/whitening.jpg">
+                </div>
+            </div>
+
+
+            <div class="gallery_item">
+                <div class="gallery_item_link">
+                    <a class="gallery_item_link_zoom" href="#openModal7"></a>
+                </div>
+                <div class="gallery_item_fone"> Сибір</div>
+                <div class="base">
+                    <img src="image/sibir_m.png" />
+                </div>
+            </div>
+            <div id="openModal7" class="Window">
+                <div>
+                    <a href="#close" title="Закрыть" class="close">X</a>
+                    <img src="image/sibir.jpg">
+                </div>
+            </div>
+
+        </div>
+        <div class="productItemBottomSection">
+            <hr class="horisontalLine">
+            <h2 class="bottomSectionName">Дополнительные опции</h2>
+            <div class="productItem bottomSectionIcon">
+                <img src="image/nonstand.jpg" alt=""/>
+                <p> Нестандартная фаска</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="image/notch.jpg" alt=""/><p>Пропилы на поверхности</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="" alt="" style="width: 97px; height: 99px"/><p>Волнистое строгание</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="image/brushing.jpg" alt=""/>
+                <p>Глубокое брашированик</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="image/aging.jpg" alt=""/><p>Искуственное состаривание</p></div>
+            <div class="productItem bottomSectionIcon">
+                <img src="" alt="" style="width: 97px; height: 99px"/><p>Индивидуальный подбор цвета</p></div>
+        </div>
+        <hr class="horisontalLine">
+
     </div>
-          <div class="productFotoList">
-              <img src="http://lorempixel.com/output/cats-q-g-640-480-5.jpg" alt=""/>
-
-
-          </div>
-
-    </div>
-    <div class="productItem"><h2>Массивная доска</h2></div>
-    <div class="productItem"><h2>Модульный паркет</h2></div>
-    <div class="productItem"><h2>Террасная доска</h2></div>
-    <div class="productItem"><h2>Изделия под заказ</h2></div>
 </section>
+
         <footer class="footer">
-        <div class="footerRights">Copyrights &#169 2016 - Antica Natura. All Rights Reserved
+        <div class="footerRights">Copyrights &#169 2017 - Antica Natura. All Rights Reserved
         </div>
         <div class="footerContact"> (067)523-23-10 &emsp; (050)412-70-85&emsp;</div>
 

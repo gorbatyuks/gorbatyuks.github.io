@@ -1,48 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Antica Natura. Натуральные напольные покрития</title>
     <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body class="wrapper">
     <header class="header">
         <div  class="headLogo">
             <img src="image/logo.png" alt="Antica Natura logo"/>
         </div>
-        <nav class="headNav" role="custom-dropdown" >
-           <!-- <input type="checkbox" id="button">
-            <label for="button" onclick></label>-->
+        <nav class="headNav" >
 
-               <a class="navItem" href="index.html">Главная</a>
-                <a class="navItem" href="product.html">Продукция</a>
-                   <ul class="submenu">
-                        <li><a href="#">Инженерная доска</a></li>
-                        <li><a href="#">Массивная доска</a></li>
-                        <li><a href="#">Модульный паркет</a></li>
-                        <li><a href="#">Террасная доска</a></li>
-                        <li><a href="#">Изделия под заказ</a></li>
+                <a class="navItem" href="index.html">Главная</a>
+                <a class="navItem headNavSub" href="product.html">Продукция</a>
+                   <ul class="subMenu">
+                        <li><a class="navItem" href="product.html#engBoard">Инженерная доска</a></li>
+                        <li><a class="navItem" href="product.html#MasBoard">Массивная доска</a></li>
+                        <li><a class="navItem" href="product.html#modul">Модульный паркет</a></li>
+                        <li><a class="navItem" href="product.html#terras">Террасная доска</a></li>
+                        <li><a class="navItem" href="product.html#order">Изделия под заказ</a></li>
+                       <li><a class="navItem" href="product.html#color">Цвета и обработка поверхности</a></li>
                    </ul>
 
-               <a class="navItem" href="#">Портфолио</a>
-               <a class="navItem" href="#">О компании</a>
-               <a class="navItem" href="#">Информация</a>
-               <a class="navItem" href="#">Контакты</a>
+               <a class="navItem" href="photos.html">Портфолио</a>
+               <a class="navItem" href="contact.html">О компании</a>
+               <a class="navItem" href="inform.html">Информация</a>
+               <a class="navItem" href="contact.html">Контакты</a>
 
         </nav>
     </header>
     <section class="main">
-        <div class="mainText">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Atque praesentium ullam ratione dignissimos maiores.<br/>
-            Animi voluptatibus dolor eveniet culpa dolores sint nobis numquam dolorem, nihil dolore<br/>
-            laudantium velit, eius libero</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <p>Atque praesentium ullam ratione dignissimos maiores.<br/>
-                Animi voluptatibus dolor eveniet culpa dolores sint nobis numquam dolorem, nihil dolore<br/>
-                laudantium velit, eius libero</p>
+        <div class="flexContainer">
+            <a href="product.html#engBoard"><div class="flexItem"><h3>Инженерная доска</h3>
+                <img class="itemFoto" src="image/twoplanch.png"> </div></a>
+            <div class=" flexItem"><h3>Массивная доска</h3>
+                <img class="itemFoto" src="image/massboard.png"> </div>
+            <div class=" flexItem"><h3>Террасная доска</h3>
+                <img class="itemFoto" src="image/terass.png"> </div>
+            <div class=" flexItem">  <h3>Модульный паркет</h3>
+                <img class="itemFoto" src="image/modul.png"></div>
+            <div class="flexItem"><h3>Индивидуальные изделия</h3>
+                <img class="itemFoto" src="image/indiv.png"></div>
+            <div class="flexItem"><h3>Цвета и обработка поверхности</h3>
+                <img class="itemFoto" src="image/color.png"></div>
 
-            </div>
+        </div>
+        <div class="mainText">
+            <hr/>
+            <h3>Выбрав напольные покрытия нашей компании, Вы гарантированно получите:</h3>
+                <ol class="mainTextList">
+                    <li>Профессиональную консультацию.</li>
+                    <li>Высокое качество продукции от украинского производителя.</li>
+                    <li>Экологически чистая древесина различных пород (дуб, ясень, термообработанная древесина, граб, берест).</li>
+                    <li>Широкий выбор стандартных цветов, а так же индивидуальный подбор цвета.</li>
+                    <li>Производство индивидуальных изделий для Вашего интерьера (плинтус, столы, столешницы, ступени, стеновые панели).</li>
+                    <li>Выбор любой дополнительной обработки поверхности (браширование, строгание и т.д.).</li>
+                    <li>Покрытие натуральным масло-воском, в заводских условиях.</li>
+                </ol>
+            <p class="mainTextEpilogue">Наша Компания производит натуральные напольные покрытия, для тех кто неравнодушен к изделиям из дерева.</p>
+
+        </div>
+
     </section>
     <footer class="footer">
          <div class="footerRights">Copyrights &#169 2016 - Antica Natura. All Rights Reserved

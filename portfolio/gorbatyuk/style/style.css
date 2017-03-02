@@ -1,179 +1,196 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-}
-
-@media all and (min-width: 768px) {
-.wrapper{
-    overflow: scroll;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    color: #fff;
-    background-color: #000;
-    align-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
    }
-    .wrapper > * {
-        padding: 10px;
+a{
+    text-decoration: none;}
+@media all and (min-width: 48em) {
+
+    .header {
+        background-color: #d2d0d0;
+        position: fixed;
+        display: flex;
         flex: 1 100%;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 0.625em;
+        z-index: 500;
+    }
+/*МЕНЯ*/
+
+    a{ text-decoration: none;}
+    .headNav{
+        display: inline-block;
+        padding-top: 0.3125em;
+        font-size:0.8em;
+    }
+    .hedNav li{
+        list-style-type: none;
+    }
+    .subMenu{
+        display: none;
+        position: absolute;
+        right: 27.5em;
+        top: 3.5em;
+        list-style-type: none;
+        background: #D2D0D0;
+        padding: 0.3125em 0.3125em;
+    }
+    .subMenu:hover{
+        display:block;
+    }
+    .headNavSub:hover ~.subMenu{
+        display: block;
+    }
+    .navItem {
+        text-transform: uppercase;
+        color: #000;
+        text-decoration: none;
+        display: inline-block;
+        padding: 1em 0.3em;
+        border-bottom: 0.125em solid #d2d0d0;
+        border-top: 0.125em solid #d2d0d0;
+        transition: 1s ease;
+
+    }
+    li>.navItem{
+        width: 11.25em;
+    }
+    .navItem:hover {
+        border-bottom: 0.125em solid #545353;
+        border-top:  0.125em solid #545353;
+        padding: 0.5em 0.3em;
+        cursor: pointer;
+    }
+    /* ГОЛОВНА*/
+    .main {
+        padding: 5em 0.625em 0 0.625em;
+        color: #fff;
+        overflow: hidden;
+        background-color: #000;
+        background-size: 100%;
+        box-sizing: border-box;
     }
 
-.header{
-    background-color: #000;
-    padding: 0 1em;
-    position: fixed;
-    display: flex;
-    flex: 1 100%;
-    justify-content: space-between;
-    width: 100%;
-    }
-.headNav{
-    padding-top: 10px;
-
-}
-.navItem{
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.1em;
-   /* display: inline-block;*/
-
-    border-bottom: 4px solid #000 ;
-    padding: 0.5em 0.3em;
-}
-    .navItem:hover{
-        border-bottom: 3px solid #fff ;
-
+    .flexContainer {
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: row wrap;
     }
 
-.main{
-    overflow: hidden;
-    padding: 1em;
-    flex: 1 100%;
-    margin-top:4em;
-    padding-top: 10em;
-    background: url("http://lorempixel.com/output/technics-q-g-1460-900-7.jpg") no-repeat;
-    background-color: #000;
-    background-size: 100%;
-    height:  36.5em;
-
-     }
-.mainText{
-    text-align: right;
-    font-size: 1.5em;
-}
-.productList{
-    /*display: flex;
-    flex-wrap: wrap;*/
-    margin-top:4em;
-}
-.productItem{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-
-
-}  .productCard, .productFotoList{
-      /* border: 1px solid white;*/
-       padding: 10px;
-      }
-       .productCard{
-           flex:1;
-            min-width: 490px;
-
-        }
-        .productFotoList{
-            flex: 1;
-            min-width: 490px;
-
-        }
-
-.productCardImage{
-    float: left;
-    margin: 20px 20px 20px 0;
-}
-    .productCardDescription{
-        padding: 40px 10px 0 0;
+    .flexItem {
+        -webkit-flex: 1;
+        flex: 1;
+        min-width: 21.25em;
+        padding: 0.625em 1.875em;
+        margin: auto;
+        text-align: center;
+        overflow: hidden;
+        text-transform: uppercase;
+        letter-spacing: 0.1875em;
+        display: block;
+        border: 0.0625em solid #000;
+        transition: letter-spacing 1s, border 1s;
     }
-.footer{
-    background-color: #000;
-    flex: 1 100%;
-    padding: 1em;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-      }
+    .flexItem:hover{
+        cursor: pointer;
+        border: 0.0625em solid #323232;
+        color: #ccc;
+        letter-spacing: 0.25em;
+           }
 
-.footerRights{
-    font-size: 0.8em;
-}
-.footerContact:after{
-    content: url(../image/facebook.png);
-    position: relative;
-    right: 5px;
-    bottom: -10px;
-}
-/*.logo{
-  flex-grow:1
-}
-nav{
-  flex-grow:4;
-}*/
-/*.headNav{
-    align-self:flex-end;
-}*/
-li{
-    display: inline-block;
-}
-.submenu{
-    left:0;
-    right:0;
-    position: absolute;
-    display: none;
-    text-align: center;
-    list-style-type: none;
-}
-/*li:hover  a {
-    background-color:#eee;
-    color: #a0a0a2;
-    display: block;
-}*/
-/*
-body{
-    background: url("../image/backGroundImage_mob.jpg") bottom no-repeat;
-    color: #fff;
-    width: 480px;
-    margin: auto;
-    border: 1px solid #fff;
-}
-.head{
-    position:fixed;
-    top: 0;
-    display: inline-block;
-    width:inherit;
-    border: 1px solid red;
-    padding: 0.5em;
-    background: #000;
+    h3 {
+        margin-bottom: 0.625em;
+    }
 
-}
-.headLogo{
-    display: inline-block;
-    width: 180px;
-    height: 57px;
-    border: 1px solid yellow;
-}
-.headNav{
-    float: right;
+    .itemFoto {
+        width: 25em;
+        height: 11.25em;
+        margin: auto;
+    }
 
-    border: 1px solid green;
-}
-nav{ border: 1px dashed ;
-    height: 50px}
-section{
-    margin-top: 80px;
-}*/
+    .mainText {
+        margin: 1.25em 3.75em;
+    }
+
+    .mainTextList {
+        padding-left: 5em;
+    }
+
+    .mainText > p {
+        margin: 1.25em 0;
+        text-align: center;
+    }
+
+    .mainText > h3 {
+        padding: 0.9375em 0 0.9375em 0.9375em;
+    }
+
+    /*сторіна ПРОДУЦІЯ*/
+    .productList {
+        margin-top: 4em;
+    }
+
+    .productItem {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+    }
+
+    .productCard, .productFotoList {
+        padding: 0.625em;
+    }
+
+    .productCard {
+        flex: 1;
+        min-width: 30.625em;
+    }
+
+    .productFotoList {
+        flex: 1;
+        min-width: 30.625em;
+    }
+
+    .productCardImage {
+        float: left;
+        margin: 1.25em 1.25em 1.25em 0;
+    }
+
+    .productCardDescription {
+        padding: 2.5em 0.625em 0 0;
+    }
+/* ФУТЕР*/
+    .footer {
+        background-color: #d2d0d0;
+        color: #000;
+        padding: 0 1.5625em;
+        display: block;
+        display: -webkit-flex;
+        display: flex;
+
+    }
+
+    .footerRights {
+        flex: 1;
+        font-size: 0.8em;
+        display: inline-block;
+        padding-top: 0.9375em;
+    }
+    .footerContact{
+        flex: 1;
+        text-align: right;
+        display: table-cell;
+        vertical-align: middle;
+        font-size: larger;
+        margin-bottom: 0.3125em;
+    }
+    .footerContact:after {
+        content: url(../image/facebook.png);
+        position: relative;
+        right: 0.3125em;
+        bottom: -0.3125em;
+    }
 }

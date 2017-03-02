@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+a{
+    text-decoration: none;}
+@media all and (min-width: 48em) {
+    .wrapper{
+        height: 100%;
+        background-color: #000;
+        color:#fff;
+        text-align: center;
+            }
+    .header {
+        background-color: #d2d0d0;
+        position: fixed;
+        display: flex;
+        flex: 1 100%;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 0.625em;
+        z-index: 500;
+    }
+    /*лемъ*/
+
+    a{ text-decoration: none;}
+    .headNav{
+        display: inline-block;
+        padding-top: 0.3125em;
+        font-size:0.8em;
+    }
+    .hedNav li{
+        list-style-type: none;
+    }
+    .subMenu{
+        display: none;
+        position: absolute;
+        right: 27.5em;
+        top: 3.5em;
+        list-style-type: none;
+        background: #D2D0D0;
+        padding: 0.3125em 0.3125em;
+    }
+    .subMenu:hover{
+        display:block;
+    }
+    .headNavSub:hover ~.subMenu{
+        display: block;
+    }
+    .navItem {
+        text-transform: uppercase;
+        color: #000;
+        text-decoration: none;
+        display: inline-block;
+        padding: 1em 0.3em;
+        border-bottom: 0.125em solid #d2d0d0;
+        border-top: 0.125em solid #d2d0d0;
+        transition: 1s ease;
+
+    }
+    li>.navItem{
+        width: 11.25em;
+    }
+    .navItem:hover {
+        border-bottom: 0.125em solid #545353;
+        border-top:  0.125em solid #545353;
+        padding: 0.5em 0.3em;
+        cursor: pointer;
+    }
+    section{
+        padding: 5em 0 4.4em 0;
+        line-height: 2;
+
+    }
+   /* .contactName{
+        font-size: 1.6em;
+    }
+    .color{
+        color: #ccad68;
+    }*/
+    .mailButton{
+        padding: 0.325em 1em;
+        background-color: #d2d0d0;
+        margin-top: 1em;
+        border: none;
+            }
+    .flexContainer {
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 1em 2em 1em 4em;
+    }
+
+    .flexItem {
+        -webkit-flex: 1;
+        flex: 1;
+        text-align: left;
+        min-width: 400px;
+        padding-top: 2em;
+    }
+ /*   hr{
+       width: 80%;
+        text-align: left;
+        color: #ccad68;
+        margin: .625em 0;
+        min-width: 400px;
+    }*/
+    .flexMap{
+        margin-top: .625em;
+    }
+
+/* тсреп*/
+.footer {
+    background-color: #d2d0d0;
+    color: #000;
+    padding: 0 1.5625em;
+    display: block;
+    display: -webkit-flex;
+    display: flex;
+
+}
+
+.footerRights {
+    flex: 1;
+    font-size: 0.8em;
+    display: inline-block;
+    padding-top: 0.9375em;
+}
+.footerContact{
+    flex: 1;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: larger;
+    margin-bottom: 0.3125em;
+}
+.footerContact:after {
+    content: url(../image/facebook.png);
+    position: relative;
+    right: 0.3125em;
+    bottom: -0.3125em;
+}
+}
