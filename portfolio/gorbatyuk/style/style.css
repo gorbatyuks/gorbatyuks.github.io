@@ -5,7 +5,9 @@
     font-size: 1em;
        }
 a{
-    text-decoration: none;}
+    text-decoration: none;
+    color: #fff;
+}
 @media all and (min-width: 48em) {
 
     .header {

@@ -171,35 +171,35 @@ a{
     }
     /* галерея модульний*/
 
-    .gallary{
+    .gallery{
         display: flex;
         flex-wrap: wrap;
-        width: 800px;
-            }
-    .gallery_item  img{
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+                    }
+    /*.gallery_item  img{
         width: 180px;
         height:180px;
-    }
+    }*/
 
     .gallery_item {
-        position: relative;
+      /* position: absolute;*/
         width: 180px;
         height:180px;
         flex: 1;
         display: inline-block;
-        margin: 1%;
-
+        margin: 2%;
 
         }
     .gallery_item:hover .gallery_item_fone {
         opacity: 0.3;
         /*display: block;*/
-        display: inline-block;
+        display: block;
     }
     .gallery_item:hover .gallery_item_link {
         opacity: 1;
         z-index: 450;
-        /*display: block;*/
         display: inline-block;
     }
 
@@ -207,11 +207,11 @@ a{
     .gallery_item_link {
         position: absolute;
         /*padding-top: 110px;*/
-        box-sizing: border-box;
+        /*box-sizing: border-box;*/
         width: 180px;
         height: 180px;
-        /*text-align: center;
-        top: 0;
+        /*text-align: center;*/
+       /*top: 0;
         left: 0;*/
         opacity: 0;
         transition: all 0.3s ease;
@@ -221,17 +221,17 @@ a{
     .gallery_item_fone {
         background: #fff;
     }
-    .gallery_item_link_zoom{
+   .gallery_item_link_zoom{
         display: inline-block;
-        width: 180px;
-        margin: auto;
-        height: 180px;
+      width: 180px;
+       /*margin: auto;*/
+       height: 180px;
 
-    }
-    .gallery_item_link_zoom:hover{
+ }
+   /* .gallery_item_link_zoom:hover{
         background-color: #fff;
         opacity: 0.3;
-    }
+    }*/
 
     .Window {
         position: fixed;
@@ -280,10 +280,11 @@ a{
         font-weight: bold;
     }
 
-    .close:hover {  background: #fff;
+    .close:hover {
+        background: #fff;
         color:#000; }
 
-}
+
 
 a.prev,a.next {
     height:91px;
@@ -306,4 +307,6 @@ a.prev:hover,a.next:hover {
 .next {
     right:0;
     background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
+}
+
 }
