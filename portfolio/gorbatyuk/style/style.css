@@ -189,10 +189,10 @@ a{
         font-size: larger;
         margin-bottom: 0.3125em;
     }
-    .footerContact:after {
+   /* .footerContact:after {
         content: url(../image/facebook.png);
         position: relative;
         right: 0.3125em;
         bottom: -0.3125em;
-    }
+    }*/
 }

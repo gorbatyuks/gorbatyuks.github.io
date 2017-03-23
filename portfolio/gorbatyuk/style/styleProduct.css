@@ -99,19 +99,23 @@ a{
         text-align: center;
     }
     .productList{
-        padding: 5em 0 0 0;
+        padding: 5em 7% 0 7%;
         background-color: #000;
         color: #fff;
+        text-align: center;
     }
     .productContainer, .productItemBottomSection{
         display: -webkit-flex;
         display: flex;
         flex-flow: row wrap;
         padding: 0 0.625em;
+        text-align: left;
     }
+
     .productItem{
         -webkit-flex: 1;
         flex: 1;
+        min-width: 400px;
         padding: 0.625em;
         line-height: 150%;
 
@@ -133,7 +137,38 @@ a{
     .productCardText{
         padding: 1.25em;
     }
+    .colorButton{
+        display: inline-block;
+        padding: 5px 20px;
+        background-color: #D2D0D0;
+        border-radius: 2px;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    .horisontalLine{
+        color:#fff;
+        height:4px;
+        background-color: #fff;
+        border-radius: 2px;
+        width: 60%;
+        margin: 30px auto;
+        /*тінь*/
+        /*  -webkit-box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);
+        -moz-box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);
+        box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);*/
+        /*гредіент*/
+        //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c4c4c4+0,c2c2c2+5,c2c2c2+5,c8c8c8+5,cdcdcd+6,565656+14,ababab+22,424242+27,d3d3d3+35,d3d3d3+38,d3d3d3+38,b0b0b0+41,545454+48,b0b0b0+55,d3d3d3+58,d3d3d3+62,d3d3d3+65,d3d3d3+67,d3d3d3+67,d3d3d3+70,bfbfbf+71,494949+76,b0b0b0+80,b0b0b0+80,cecece+82,b0b0b0+85,5b5b5b+89,bababa+96 */
+    background: #c4c4c4; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#bababa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
+    }
     #h4{
         clear:both;
 
@@ -145,10 +180,7 @@ a{
     .productlistAdvantage{
         margin-left: 2.5em;
     }
-    .horisontalLine{
-        width: 100%;
-        margin: 20px 0;
-    }
+
     .bottomSectionName{
         display: block;
         width: 100%;
@@ -176,7 +208,7 @@ a{
         flex-wrap: wrap;
         max-width: 1200px;
         margin: auto;
-        text-align: center;
+       /* text-align: center;*/
                     }
     /*.gallery_item  img{
         width: 180px;
@@ -188,35 +220,34 @@ a{
         width: 180px;
         height:180px;
         flex: 1;
-        display: inline-block;
+        display: block;
         margin: 2%;
 
         }
     .gallery_item:hover .gallery_item_fone {
         opacity: 0.3;
-        /*display: block;*/
         display: block;
-    }
+            }
     .gallery_item:hover .gallery_item_link {
         opacity: 1;
         z-index: 450;
-        display: inline-block;
-    }
+        display: block;
+           }
 
     .gallery_item_fone,
     .gallery_item_link {
         position: absolute;
         /*padding-top: 110px;*/
-        /*box-sizing: border-box;*/
+        box-sizing: border-box;
         width: 180px;
         height: 180px;
         /*text-align: center;*/
-       /*top: 0;
+       /* top: 0;
         left: 0;*/
         opacity: 0;
         transition: all 0.3s ease;
         display: none;
-    }
+            }
 
     .gallery_item_fone {
         background: #fff;
@@ -224,7 +255,7 @@ a{
    .gallery_item_link_zoom{
         display: inline-block;
       width: 180px;
-       /*margin: auto;*/
+       margin: auto;
        height: 180px;
 
  }
