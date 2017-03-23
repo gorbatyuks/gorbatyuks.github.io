@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styleProduct.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styleProduct.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/gorbatyuk/style/styleProduct.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5230126">
-              <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+            <state vertical-scroll-proportion="-12.111111">
+              <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
               <folding>
                 <element signature="e#1#97#0" expanded="false" />
                 <element signature="e#177#432#0" expanded="false" />
@@ -41,30 +41,31 @@
                 <element signature="e#1668#1780#0" expanded="false" />
                 <element signature="e#1799#1971#0" expanded="false" />
                 <element signature="e#1997#2129#0" expanded="false" />
-                <element signature="e#2147#2182#0" expanded="false" />
-                <element signature="e#2687#2743#0" expanded="false" />
-                <element signature="e#2944#3003#0" expanded="false" />
-                <element signature="e#3024#3056#0" expanded="false" />
-                <element signature="e#5862#5891#0" expanded="false" />
-                <element signature="e#5917#5978#0" expanded="false" />
-                <element signature="e#6004#6039#0" expanded="false" />
-                <element signature="e#6063#6168#0" expanded="false" />
-                <element signature="e#6191#6313#0" expanded="false" />
-                <element signature="e#6347#6403#0" expanded="false" />
-                <element signature="e#6435#6469#0" expanded="false" />
-                <element signature="e#9037#9055#0" expanded="false" />
-                <element signature="e#9062#9227#0" expanded="false" />
-                <element signature="e#9234#9400#0" expanded="false" />
+                <element signature="e#5745#5774#0" expanded="false" />
+                <element signature="e#5800#5861#0" expanded="false" />
+                <element signature="e#5887#5922#0" expanded="false" />
+                <element signature="e#6074#6196#0" expanded="false" />
+                <element signature="e#6230#6286#0" expanded="false" />
+                <element signature="e#6318#6352#0" expanded="false" />
+                <element signature="e#6643#6791#0" expanded="false" />
+                <element signature="e#6835#6896#0" expanded="false" />
+                <element signature="e#6940#7020#0" expanded="false" />
+                <element signature="e#7992#8053#0" expanded="false" />
+                <element signature="e#8073#8302#0" expanded="false" />
+                <element signature="e#8622#8671#0" expanded="false" />
+                <element signature="e#8920#8938#0" expanded="false" />
+                <element signature="e#8945#9110#0" expanded="false" />
+                <element signature="e#9117#9283#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="colors.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/gorbatyuk/colors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.115385">
-              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.9470752">
+              <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -76,19 +77,18 @@
       <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/gorbatyuk/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.846154">
-              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            <state vertical-scroll-proportion="-9.320755">
+              <caret line="303" column="31" selection-start-line="303" selection-start-column="31" selection-end-line="303" selection-end-column="31" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#3093#5664#0" expanded="false" />
-                <element signature="e#5672#6782#0" expanded="false" />
-                <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#12;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#14;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#16;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#12;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#14;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#16;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -185,9 +185,9 @@
         <option value="$PROJECT_DIR$/portfolio/gorbatyuk/index.html" />
         <option value="$PROJECT_DIR$/portfolio/gorbatyuk/style/style.css" />
         <option value="$PROJECT_DIR$/portfolio/gorbatyuk/style/styleColors.css" />
-        <option value="$PROJECT_DIR$/portfolio/gorbatyuk/colors.html" />
         <option value="$PROJECT_DIR$/portfolio/gorbatyuk/product.html" />
         <option value="$PROJECT_DIR$/portfolio/gorbatyuk/style/styleProduct.css" />
+        <option value="$PROJECT_DIR$/portfolio/gorbatyuk/colors.html" />
       </list>
     </option>
   </component>
@@ -200,7 +200,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1610" />
+    <option name="width" value="1608" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -410,10 +410,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1610" height="876" extended-state="0" />
+    <frame x="-8" y="0" width="1608" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17126726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17148241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.41244018" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -488,20 +488,21 @@
             <element signature="e#1668#1780#0" expanded="false" />
             <element signature="e#1799#1971#0" expanded="false" />
             <element signature="e#1997#2129#0" expanded="false" />
-            <element signature="e#2147#2182#0" expanded="false" />
-            <element signature="e#2687#2743#0" expanded="false" />
-            <element signature="e#2944#3003#0" expanded="false" />
-            <element signature="e#3024#3056#0" expanded="false" />
-            <element signature="e#5862#5891#0" expanded="false" />
-            <element signature="e#5917#5978#0" expanded="false" />
-            <element signature="e#6004#6039#0" expanded="false" />
-            <element signature="e#6063#6168#0" expanded="false" />
-            <element signature="e#6191#6313#0" expanded="false" />
-            <element signature="e#6347#6403#0" expanded="false" />
-            <element signature="e#6435#6469#0" expanded="false" />
-            <element signature="e#9037#9055#0" expanded="false" />
-            <element signature="e#9062#9227#0" expanded="false" />
-            <element signature="e#9234#9400#0" expanded="false" />
+            <element signature="e#5745#5774#0" expanded="false" />
+            <element signature="e#5800#5861#0" expanded="false" />
+            <element signature="e#5887#5922#0" expanded="false" />
+            <element signature="e#6074#6196#0" expanded="false" />
+            <element signature="e#6230#6286#0" expanded="false" />
+            <element signature="e#6318#6352#0" expanded="false" />
+            <element signature="e#6643#6791#0" expanded="false" />
+            <element signature="e#6835#6896#0" expanded="false" />
+            <element signature="e#6940#7020#0" expanded="false" />
+            <element signature="e#7992#8053#0" expanded="false" />
+            <element signature="e#8073#8302#0" expanded="false" />
+            <element signature="e#8622#8671#0" expanded="false" />
+            <element signature="e#8920#8938#0" expanded="false" />
+            <element signature="e#8945#9110#0" expanded="false" />
+            <element signature="e#9117#9283#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -523,14 +524,13 @@
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3093#5664#0" expanded="false" />
-            <element signature="e#5672#6782#0" expanded="false" />
-            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#16;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#16;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -542,14 +542,13 @@
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3093#5664#0" expanded="false" />
-            <element signature="e#5672#6782#0" expanded="false" />
-            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#16;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#16;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -852,40 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/gorbatyuk/colors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.115385">
-          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/gorbatyuk/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.846154">
-          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3093#5664#0" expanded="false" />
-            <element signature="e#5672#6782#0" expanded="false" />
-            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#16;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/gorbatyuk/style/styleProduct.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5230126">
-          <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+        <state vertical-scroll-proportion="-12.111111">
+          <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
           <folding>
             <element signature="e#1#97#0" expanded="false" />
             <element signature="e#177#432#0" expanded="false" />
@@ -901,20 +870,50 @@
             <element signature="e#1668#1780#0" expanded="false" />
             <element signature="e#1799#1971#0" expanded="false" />
             <element signature="e#1997#2129#0" expanded="false" />
-            <element signature="e#2147#2182#0" expanded="false" />
-            <element signature="e#2687#2743#0" expanded="false" />
-            <element signature="e#2944#3003#0" expanded="false" />
-            <element signature="e#3024#3056#0" expanded="false" />
-            <element signature="e#5862#5891#0" expanded="false" />
-            <element signature="e#5917#5978#0" expanded="false" />
-            <element signature="e#6004#6039#0" expanded="false" />
-            <element signature="e#6063#6168#0" expanded="false" />
-            <element signature="e#6191#6313#0" expanded="false" />
-            <element signature="e#6347#6403#0" expanded="false" />
-            <element signature="e#6435#6469#0" expanded="false" />
-            <element signature="e#9037#9055#0" expanded="false" />
-            <element signature="e#9062#9227#0" expanded="false" />
-            <element signature="e#9234#9400#0" expanded="false" />
+            <element signature="e#5745#5774#0" expanded="false" />
+            <element signature="e#5800#5861#0" expanded="false" />
+            <element signature="e#5887#5922#0" expanded="false" />
+            <element signature="e#6074#6196#0" expanded="false" />
+            <element signature="e#6230#6286#0" expanded="false" />
+            <element signature="e#6318#6352#0" expanded="false" />
+            <element signature="e#6643#6791#0" expanded="false" />
+            <element signature="e#6835#6896#0" expanded="false" />
+            <element signature="e#6940#7020#0" expanded="false" />
+            <element signature="e#7992#8053#0" expanded="false" />
+            <element signature="e#8073#8302#0" expanded="false" />
+            <element signature="e#8622#8671#0" expanded="false" />
+            <element signature="e#8920#8938#0" expanded="false" />
+            <element signature="e#8945#9110#0" expanded="false" />
+            <element signature="e#9117#9283#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/gorbatyuk/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.320755">
+          <caret line="303" column="31" selection-start-line="303" selection-start-column="31" selection-end-line="303" selection-end-column="31" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#16;n#div#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/gorbatyuk/colors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9470752">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

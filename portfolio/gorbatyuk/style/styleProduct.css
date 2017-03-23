@@ -111,14 +111,18 @@ a{
         padding: 0 0.625em;
         text-align: left;
     }
+    .modulText{
+        display: inline-block;
+        text-align: center;
+        border: 1px solid red;
 
+    }
     .productItem{
         -webkit-flex: 1;
         flex: 1;
         min-width: 400px;
         padding: 0.625em;
         line-height: 150%;
-
     }
     .productItemBottomSection{
         width: 100%;
@@ -158,6 +162,7 @@ a{
         transition: 0.7s;
         border-radius: 10px;
     }
+
     .horisontalLine{
         color:#fff;
         height:4px;
@@ -166,10 +171,6 @@ a{
         border: none;
         width: 65%;
         margin: 30px auto;
-        /*тінь*/
-       /* -webkit-box-shadow: inset 0px -30px 100px 20px rgba(0,0,0,0.75);
-        -moz-box-shadow: inset 0px -30px 100px 20px rgba(0,0,0,0.75);
-        box-shadow: inset 0px -30px 100px 20px rgba(0,0,0,0.75);*/
         /*гредіент*/
         //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c4c4c4+0,c2c2c2+5,c2c2c2+5,c8c8c8+5,cdcdcd+6,565656+14,ababab+22,424242+27,d3d3d3+35,d3d3d3+38,d3d3d3+38,b0b0b0+41,545454+48,b0b0b0+55,d3d3d3+58,d3d3d3+62,d3d3d3+65,d3d3d3+67,d3d3d3+67,d3d3d3+70,bfbfbf+71,494949+76,b0b0b0+80,b0b0b0+80,cecece+82,b0b0b0+85,5b5b5b+89,bababa+96 */
     background: #c4c4c4; /* Old browsers */
@@ -252,7 +253,7 @@ a{
         box-sizing: border-box;
         width: 180px;
         height: 180px;
-        /*text-align: center;*/
+       /* text-align: center;*/
        /* top: 0;
         left: 0;*/
         opacity: 0;
