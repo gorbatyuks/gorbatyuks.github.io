@@ -128,6 +128,8 @@ a{
         text-align: center;
         font-size: 1.1em;
         padding-bottom: 0.625em;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
     }
 
     .productCardImage{
@@ -149,17 +151,25 @@ a{
         margin-top: 20px;
         font-weight: 700;
     }
+    .colorButton:hover {
+        background-color: #aca8a8;
+        color: #323232;
+        letter-spacing: 0.1em;
+        transition: 0.7s;
+        border-radius: 10px;
+    }
     .horisontalLine{
         color:#fff;
         height:4px;
         background-color: #fff;
-        border-radius: 2px;
-        width: 60%;
+        border-radius: 3px;
+        border: none;
+        width: 65%;
         margin: 30px auto;
         /*тінь*/
-        /*  -webkit-box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);
-        -moz-box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);
-        box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);*/
+       /* -webkit-box-shadow: inset 0px -30px 100px 20px rgba(0,0,0,0.75);
+        -moz-box-shadow: inset 0px -30px 100px 20px rgba(0,0,0,0.75);
+        box-shadow: inset 0px -30px 100px 20px rgba(0,0,0,0.75);*/
         /*гредіент*/
         //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c4c4c4+0,c2c2c2+5,c2c2c2+5,c8c8c8+5,cdcdcd+6,565656+14,ababab+22,424242+27,d3d3d3+35,d3d3d3+38,d3d3d3+38,b0b0b0+41,545454+48,b0b0b0+55,d3d3d3+58,d3d3d3+62,d3d3d3+65,d3d3d3+67,d3d3d3+67,d3d3d3+70,bfbfbf+71,494949+76,b0b0b0+80,b0b0b0+80,cecece+82,b0b0b0+85,5b5b5b+89,bababa+96 */
     background: #c4c4c4; /* Old browsers */
@@ -171,6 +181,7 @@ a{
     }
     #h4{
         clear:both;
+
 
     }
     .productListReference{
