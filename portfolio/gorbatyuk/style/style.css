@@ -99,11 +99,30 @@ a{
     }
     .flexItem:hover{
         cursor: pointer;
-        border: 0.0625em solid #323232;
-        color: #ccc;
+        border: 0.0625em solid #323232;color: #ccc;
         letter-spacing: 0.25em;
-           }
 
+           }
+    .horisontalLine{
+        color:#fff;
+        height:4px;
+        background-color: #fff;
+        border-radius: 2px;
+        width: 60%;
+        margin: 30px auto;
+        /*тінь*/
+        /*  -webkit-box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);
+        -moz-box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);
+        box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);*/
+        /*гредіент*/
+    //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c4c4c4+0,c2c2c2+5,c2c2c2+5,c8c8c8+5,cdcdcd+6,565656+14,ababab+22,424242+27,d3d3d3+35,d3d3d3+38,d3d3d3+38,b0b0b0+41,545454+48,b0b0b0+55,d3d3d3+58,d3d3d3+62,d3d3d3+65,d3d3d3+67,d3d3d3+67,d3d3d3+70,bfbfbf+71,494949+76,b0b0b0+80,b0b0b0+80,cecece+82,b0b0b0+85,5b5b5b+89,bababa+96 */
+    background: #c4c4c4; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#bababa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    }
     h3 {
         margin-bottom: 0.625em;
     }

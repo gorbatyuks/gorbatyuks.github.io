@@ -111,12 +111,7 @@ a{
         padding: 0 0.625em;
         text-align: left;
     }
-    .modulText{
-        display: inline-block;
-        text-align: center;
-        border: 1px solid red;
 
-    }
     .productItem{
         -webkit-flex: 1;
         flex: 1;
@@ -145,23 +140,32 @@ a{
     }
     .colorButton{
         display: inline-block;
-        padding: 5px 20px;
+        padding: 10px 20px;
         background-color: #D2D0D0;
-        border-radius: 2px;
+        border-radius: 5px;
         color: #000;
         text-decoration: none;
         text-transform: uppercase;
         font-size: 0.8em;
         margin-top: 20px;
         font-weight: 700;
+        -webkit-box-shadow: 0px 15px 20px -15px rgba(255,255,255,0.75);
+        -moz-box-shadow: 0px 15px 20px -15px rgba(255,255,255,0.75);
+        box-shadow: 0px 15px 20px -15px rgba(255,255,255,0.75);
+        background: #cedce7; /* Old browsers */
+        background: -moz-linear-gradient(top,  #e8e7e7 0%, #545353 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #e8e7e7 0%,#545353 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #e8e7e7 0%,#545353 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e7', endColorstr='#545353',GradientType=0 ); /* IE6-9 */
+        transition: 0.7s;
     }
     .colorButton:hover {
         background-color: #aca8a8;
-        color: #323232;
-        letter-spacing: 0.1em;
-        transition: 0.7s;
-        border-radius: 10px;
-    }
+        color: #5a5a5a;
+        position:relative;
+        top: 2px;
+
+           }
 
     .horisontalLine{
         color:#fff;
