@@ -65,6 +65,7 @@ a{
         padding: 0.5em 0.3em;
         cursor: pointer;
     }
+
     .footer {
         background-color: #d2d0d0;
         color: #000;
@@ -74,7 +75,6 @@ a{
         display: flex;
 
     }
-
     .footerRights {
         flex: 1;
         font-size: 0.8em;
@@ -95,6 +95,7 @@ a{
         right: 0.3125em;
         bottom: -0.3125em;
     }
+
     .productColor{
         text-align: center;
     }
@@ -286,7 +287,7 @@ a{
         right: 0;
         bottom: 0;
         left: 0;
-        background: rgba(255,255,255, 0.7);
+        background: #fff;
         z-index: 99999;
         display: none;
         pointer-events: none;

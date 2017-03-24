@@ -121,7 +121,7 @@ h4, h3{
 
     }
 section{
-    padding: 5em 0 0 0;
+    padding: 5em 7% 0 7%;
     background-color: #000;
     color: #fff;
     text-align: center;
@@ -153,7 +153,7 @@ section{
         flex: 1;
         padding: 0.625em;
         line-height: 150%;
-        margin: 1.1%;
+        margin: 5px 1.1%;
         text-align: center;
         border: 1px solid #000;
         transition: 1.5s;
@@ -182,7 +182,10 @@ section{
           max-width: 35%;
     }
       .option{
-          min-width: 45%;
+
+        min-width: 37%;
+        max-width: 375px;
+        margin: auto;
       }
     .surface{
         width: 100%;
@@ -194,7 +197,7 @@ section{
         right: 0;
         bottom: 0;
         left: 0;
-        background: rgba(255,255,255, 0.7);
+        background: rgba(255,255,255, 0.9);
         z-index: 99999;
         display: none;
         pointer-events: none;
