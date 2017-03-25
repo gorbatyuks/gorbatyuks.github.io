@@ -153,7 +153,7 @@ section{
         flex: 1;
         padding: 0.625em;
         line-height: 150%;
-        margin: 5px 1.1%;
+        margin: 5px 1.1% 0 1.1%;
         text-align: center;
         border: 1px solid #000;
         transition: 1.5s;
@@ -170,9 +170,10 @@ section{
         color: #fff;
         display: inline-block;
         width: 800px;
-        font-size: 300%;
-        background-color: #7d7f74;
-        
+        font-size: 200%;
+        background-color: #000;
+        position: relative;
+        top:-5px;
     }
     .stanColor img{
         transition: 1.5s;
