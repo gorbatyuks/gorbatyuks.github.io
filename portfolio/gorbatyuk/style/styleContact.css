@@ -114,9 +114,10 @@ a{
     .contData{
         -webkit-flex: 1;
         flex: 1;
-        text-align: justify;
+        text-align: right;
         padding: 1em 0 0 2em;
         min-width: 300px;
+        border: 1px solid red;
       }
 
     .flexMap{
@@ -124,6 +125,7 @@ a{
         flex: 2;
         text-align: center;
         min-width: 600px;
+        border: 1px solid red;
     }
 
 /* тсреп*/

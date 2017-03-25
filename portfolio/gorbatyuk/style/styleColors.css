@@ -166,6 +166,14 @@ section{
         letter-spacing: 0.25em;
 
     }
+    .fotoName{
+        color: #fff;
+        display: inline-block;
+        width: 800px;
+        font-size: 300%;
+        background-color: #7d7f74;
+        
+    }
     .stanColor img{
         transition: 1.5s;
 
