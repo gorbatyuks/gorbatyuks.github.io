@@ -71,45 +71,59 @@ a{
         cursor: pointer;
     }
     section{
-        padding: 5em 0 4.4em 0;
+        padding: 5em 7% 4.4em 7%;
         line-height: 2;
 
     }
-   /* .contactName{
-        font-size: 1.6em;
-    }
-    .color{
-        color: #ccad68;
-    }*/
+
     .mailButton{
-        padding: 0.325em 1em;
-        background-color: #d2d0d0;
-        margin-top: 1em;
-        border: none;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #D2D0D0;
+        border-radius: 5px;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        margin-top: 20px;
+        font-weight: 700;
+        -webkit-box-shadow: 0px 15px 20px -15px rgba(255,255,255,0.75);
+        -moz-box-shadow: 0px 15px 20px -15px rgba(255,255,255,0.75);
+        box-shadow: 0px 15px 20px -15px rgba(255,255,255,0.75);
+        background: #cedce7; /* Old browsers */
+        background: -moz-linear-gradient(top,  #e8e7e7 0%, #545353 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #e8e7e7 0%,#545353 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #e8e7e7 0%,#545353 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e7', endColorstr='#545353',GradientType=0 ); /* IE6-9 */
+        transition: 0.7s;
             }
+    .mailButton:hover {
+        background-color: #aca8a8;
+        color: #5a5a5a;
+        position:relative;
+        top: 2px;
+
+    }
     .flexContainer {
         display: -webkit-flex;
         display: flex;
         flex-flow: row wrap;
-        padding: 1em 2em 1em 4em;
-    }
+        padding: 2em 0;
+            }
 
-    .flexItem {
+    .contData{
         -webkit-flex: 1;
         flex: 1;
-        text-align: left;
-        min-width: 400px;
-        padding-top: 2em;
-    }
- /*   hr{
-       width: 80%;
-        text-align: left;
-        color: #ccad68;
-        margin: .625em 0;
-        min-width: 400px;
-    }*/
+        text-align: justify;
+        padding: 1em 0 0 2em;
+        min-width: 300px;
+      }
+
     .flexMap{
-        margin-top: .625em;
+        -webkit-flex: 2;
+        flex: 2;
+        text-align: center;
+        min-width: 600px;
     }
 
 /* тсреп*/
