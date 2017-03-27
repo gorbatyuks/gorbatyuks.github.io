@@ -177,18 +177,20 @@ section{
         }
 
     .fotoName{
+        position: absolute;
+        bottom: 0.7em;
+        padding-left: 2em;
         color: #fff;
         display: inline;
         font-size: 150%;
 
     }
-    .darkSide .fotoName{
+   /* .darkSide .fotoName{
         text-align: left;
         padding-left: 30px;
         font-size:150%;
         box-sizing: border-box;
-
-    }
+    }*/
     .stanColor img{
         transition: 1.5s;
     }
@@ -256,29 +258,22 @@ section{
 
     .close {
         font-family: Arial;
-        background: #666;
-        color: #FFFFFF;
+        color: #fff;
         line-height: 25px;
         position: relative;
-        right: -695px;
+        left: 770px;
         text-align: center;
         padding: 5px 10px;
         text-decoration: none;
         font-weight: bold;
-        top:-5px;
+
+        transition: 1.5s;
     }
     .close:hover {
         background: #fff;
         color:#000; }
 
-    .test{
-        position: relative;
-        color: #fff;
-        z-index: 1111111;
-        background-color: #000;
-
-    }
-
+    
     a.prev,a.next {
         height:91px;
         position:absolute;

@@ -92,7 +92,7 @@ a{
         text-align: center;
         overflow: hidden;
         text-transform: uppercase;
-        letter-spacing: 0.1875em;
+        letter-spacing: 0.12em;
         display: block;
         border: 0.0625em solid #000;
         transition: letter-spacing 1s, border 1s;
@@ -100,7 +100,7 @@ a{
     .flexItem:hover{
         cursor: pointer;
         border: 0.0625em solid #323232;color: #ccc;
-        letter-spacing: 0.25em;
+        letter-spacing: 0.18em;
 
            }
     .horisontalLine{
