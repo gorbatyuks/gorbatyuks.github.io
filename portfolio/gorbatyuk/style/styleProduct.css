@@ -111,6 +111,7 @@ a{
         flex-flow: row wrap;
         padding: 0 0.625em;
         text-align: left;
+
     }
 
     .productItem{
@@ -138,6 +139,8 @@ a{
     }
     .productCardText{
         padding: 1.25em;
+    }
+    h4{ margin: 10px 0;
     }
     .colorButton{
         display: inline-block;
@@ -357,4 +360,8 @@ a.prev:hover,a.next:hover {
     background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
 }
 
+}
+p{
+    text-indent: 1.5em;
+    margin: 0.5em 0;
 }
