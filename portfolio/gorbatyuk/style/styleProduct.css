@@ -5,7 +5,9 @@
     font-size: 1em;
 }
 a{
-    text-decoration: none;}
+    text-decoration: none;
+    color: #fff;
+}
 @media all and (min-width: 48em) {
 
     .header {
@@ -19,8 +21,11 @@ a{
         padding: 0 0.625em;
         z-index: 500;
     }
+   /* p{
+        text-indent: 1.5em;
+        margin: 0.5em 0;
+    }*/
     /*МЕНЯ*/
-
     a{ text-decoration: none;}
     .headNav{
         display: inline-block;
@@ -111,7 +116,6 @@ a{
         flex-flow: row wrap;
         padding: 0 0.625em;
         text-align: left;
-
     }
 
     .productItem{
@@ -156,11 +160,11 @@ a{
         -webkit-box-shadow: 0px 15px 20px -15px rgba(255,255,255,0.75);
         -moz-box-shadow: 0px 15px 20px -15px rgba(255,255,255,0.75);
         box-shadow: 0px 15px 20px -15px rgba(255,255,255,0.75);
-        background: #cedce7; /* Old browsers */
-        background: -moz-linear-gradient(top,  #e8e7e7 0%, #545353 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top,  #e8e7e7 0%,#545353 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom,  #e8e7e7 0%,#545353 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e7', endColorstr='#545353',GradientType=0 ); /* IE6-9 */
+        background: #cedce7;
+        background: -moz-linear-gradient(top,  #e8e7e7 0%, #545353 100%);
+        background: -webkit-linear-gradient(top,  #e8e7e7 0%,#545353 100%);
+        background: linear-gradient(to bottom,  #e8e7e7 0%,#545353 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e7', endColorstr='#545353',GradientType=0 );
         transition: 0.7s;
     }
     .colorButton:hover {
@@ -179,19 +183,14 @@ a{
         border: none;
         width: 65%;
         margin: 30px auto;
-        /*гредіент*/
-        //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c4c4c4+0,c2c2c2+5,c2c2c2+5,c8c8c8+5,cdcdcd+6,565656+14,ababab+22,424242+27,d3d3d3+35,d3d3d3+38,d3d3d3+38,b0b0b0+41,545454+48,b0b0b0+55,d3d3d3+58,d3d3d3+62,d3d3d3+65,d3d3d3+67,d3d3d3+67,d3d3d3+70,bfbfbf+71,494949+76,b0b0b0+80,b0b0b0+80,cecece+82,b0b0b0+85,5b5b5b+89,bababa+96 */
-    background: #c4c4c4; /* Old browsers */
-        background: -moz-linear-gradient(-45deg,  #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(-45deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(135deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#bababa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+        background: #c4c4c4;
+        background: -moz-linear-gradient(-45deg,  #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%);
+        background: -webkit-linear-gradient(-45deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%);
+        background: linear-gradient(135deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#bababa',GradientType=1 );
     }
     #h4{
         clear:both;
-
-
     }
     .productListReference{
         list-style: none;
@@ -219,24 +218,17 @@ a{
     }
     .productItemBottomSection p{
         margin-top: 40px;
-
     }
-    /* галерея модульний*/
+
 
     .gallery{
         display: flex;
         flex-wrap: wrap;
         max-width: 1200px;
         margin: auto;
-       /* text-align: center;*/
-                    }
-    /*.gallery_item  img{
-        width: 180px;
-        height:180px;
-    }*/
 
-    .gallery_item {
-      /* position: absolute;*/
+                    }
+     .gallery_item {
         width: 180px;
         height:180px;
         flex: 1;
@@ -257,13 +249,9 @@ a{
     .gallery_item_fone,
     .gallery_item_link {
         position: absolute;
-        /*padding-top: 110px;*/
         box-sizing: border-box;
         width: 180px;
         height: 180px;
-       /* text-align: center;*/
-       /* top: 0;
-        left: 0;*/
         opacity: 0;
         transition: all 0.3s ease;
         display: none;
@@ -277,12 +265,7 @@ a{
       width: 180px;
        margin: auto;
        height: 180px;
-
  }
-   /* .gallery_item_link_zoom:hover{
-        background-color: #fff;
-        opacity: 0.3;
-    }*/
 
     .Window {
         position: fixed;
@@ -295,9 +278,7 @@ a{
         display: none;
         pointer-events: none;
         text-align: center;
-       /* opacity: 0.5;
-        background: #d2d0d0;*/
-    }
+           }
 
     .Window:target {
         display: block;
@@ -312,10 +293,7 @@ a{
         margin: 3% auto;
         padding: 30px 10px 10px;
         border-radius: 10px;
-       /* background: #d2d0d0;*/
-
-
-    }
+          }
 
     .close {
         font-family: Arial;
@@ -360,8 +338,5 @@ a.prev:hover,a.next:hover {
     background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
 }
 
-}
-p{
-    text-indent: 1.5em;
-    margin: 0.5em 0;
+
 }
