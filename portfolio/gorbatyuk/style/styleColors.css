@@ -182,7 +182,7 @@ h3 {
         background: #ebebea;
         z-index: 99999;
         display: none;
-               text-align: center;
+        text-align: center;
             }
     .Window:target {
         display: block;
