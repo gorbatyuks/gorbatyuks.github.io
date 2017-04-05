@@ -101,10 +101,10 @@ h3 {
     }
     .horisontalLine {
         color: #fff;
-        height: 4px;
-        border-radius: 2px;
+        height: 0.25em;
+        border-radius: 0.125em;
         width: 60%;
-        margin: 30px auto;
+        margin: 1.875em auto;
         background: linear-gradient(135deg, #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%);
             }
     section {
@@ -115,7 +115,6 @@ h3 {
     }
     /*мнбхи йнд*/
     .gallery {
-        display: -webkit-flex;
         display: flex;
         flex-flow: row wrap;
         padding: 0 0.625em;
@@ -123,29 +122,28 @@ h3 {
     }
     .gallery_item {
         display: block;
-        -webkit-flex: 1;
         flex: 1;
         padding: 0.625em;
         line-height: 150%;
-        margin: 5px 1.1% 0 1.1%;
+        margin: 0.3125em 1.1% 0 1.1%;
         text-align: center;
-        border: 1px solid #000;
+        border: 0.0625em solid #000;
         transition: 1.5s;
         box-sizing: border-box;
         min-width: 22%;
     }
     .gallery_item:hover {
         opacity: .7;
-        border: 1px solid #fff;
+        border: 0.0625em solid #fff;
         color: #ccc;
         letter-spacing: 0.25em;
     }
     .stanColor {
-        border: 1px solid #000;
+        border: 0.0625em solid #000;
         padding: 0;
     }
     .stanColor:hover {
-        border: 1px solid #000;
+        border: 0.0625em solid #000;
     }
     .fotoName {
         position: absolute;
@@ -161,7 +159,7 @@ h3 {
     .stanColor:hover img {
         width: 90%;
         opacity: 1;
-        padding-top: 5px;
+        padding-top: 0.3125em;
     }
     .sort {
         min-width: 25%;
@@ -169,7 +167,7 @@ h3 {
     }
     .option {
         min-width: 37%;
-        max-width: 375px;
+        max-width: 23.4375em;
         margin: auto;
     }
     .surface {
@@ -184,37 +182,35 @@ h3 {
         background: #ebebea;
         z-index: 99999;
         display: none;
-        pointer-events: none;
-        text-align: center;
+               text-align: center;
             }
     .Window:target {
         display: block;
-        pointer-events: auto;
-    }
+          }
     .Window > div {
         max-width: 100%;
         width: auto;
-        min-width: 500px;
+        min-width: 31.25em;
         position: relative;
         margin: 3% auto;
-        padding: 30px 10px 10px;
-        border-radius: 10px;
+        padding: 1.875em 0.625em 0.625em;
+        border-radius: 0.625em;
     }
     .darkSide {
-        padding: 10px;
+        padding: 0.625em;
         background-color: #000;
-        width: 800px;
+        width: 50em;
         margin: auto;
         text-align: left;
     }
     .close {
         font-family: Arial;
         color: #fff;
-        line-height: 25px;
+        line-height: 1.5625em;
         position: relative;
-        left: 770px;
+        left: 48.125em;
         text-align: center;
-        padding: 5px 10px;
+        padding: 0.3125em 0.625em;
         text-decoration: none;
         font-weight: bold;
         transition: 1.5s;
@@ -225,15 +221,15 @@ h3 {
     }
     a.prev,
     a.next {
-        height: 91px;
+        height: 5.6875em;
         position: absolute;
-        width: 43px;
+        width: 2.6875em;
         top: 50%;
-        margin-top: -30px;
+        margin-top: -1.875em;
         opacity: 0.6;
-        text-indent: -99999px;
+        text-indent: -6250em;
         cursor: pointer;
-        -webkit-transition: opacity 200ms ease-out;
+        transition: opacity 200ms ease-out;
     }
     a.prev:hover,
     a.next:hover {
@@ -241,10 +237,10 @@ h3 {
     }
     .prev {
         left: 0;
-        background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -200px 25px;
+        background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -12.5em 1.5625em;
     }
     .next {
         right: 0;
-        background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
+        background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -10.4375em 1.5625em;
     }
 }

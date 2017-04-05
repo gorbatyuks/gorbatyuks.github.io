@@ -78,26 +78,126 @@ a {
         padding: 5em 7% 4.4em 7%;
         line-height: 2;
     }
+    /*Обратная связь*/
     .mailButton {
         display: inline-block;
-        padding: 10px 20px;
-        border-radius: 5px;
+        padding: 0.625em 1.25em;
+        border-radius: 0.3125em;
         color: #000;
         text-decoration: none;
         text-transform: uppercase;
         font-size: 0.8em;
-        margin-top: 20px;
+        margin-top: 1.25em;
         font-weight: 700;
-        box-shadow: 0 15px 20px -15px rgba(255, 255, 255, 0.75);
+        box-shadow: 0 0.9375em 1.25em -0.9375em rgba(255, 255, 255, 0.75);
         background: linear-gradient(to bottom, #e8e7e7 0%, #545353 100%);
         transition: 0.7s;
     }
+
     .mailButton:hover {
         background-color: #aca8a8;
         color: #5a5a5a;
         position: relative;
-        top: 2px;
+        top: 0.125em;
+        cursor: pointer;
     }
+    #phoneUs{
+        display: none;
+        width: 475px;
+        height: 550px;
+        padding: 60px 0;
+        background: #545353;
+        border: 2px solid #fff;
+        position: fixed;
+        top: 5%;
+        left: 35%;
+        z-index: 10000;
+        color: #fff;
+    }
+   #phoneUs:target {
+        display: block;
+
+    }
+    #applicationName, #applicationTime, #applicationTelephone {
+        width: 80%;
+        height: 73px;
+        background: none;
+        margin-top: 25px;
+        border: 1px solid #000;
+        text-align: center;
+        color: #000;
+        font-size: 24px;
+    }
+
+    /*Стили полей при клике по ним*/
+   /* #applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus {
+        border: 1px solid #30ad64;
+    }*/
+
+    /*Стили текста, выводящегося в placeholder*/
+    ::-webkit-input-placeholder {
+        color: #efefef;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    }
+
+    ::-moz-placeholder  {
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    }  /* Firefox 19+ */
+
+    :-moz-placeholder {
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    }  /* Firefox 18- */
+
+    :-ms-input-placeholder {
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    }
+
+    ::placeholder {
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    }
+
+    /*Стили для кнопки*/
+    .applicationButton {
+        margin-top: 25px;
+        background: #30ad64;
+        border: none;
+        width: 80%;
+        height: 73px;
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: .6s;
+    }
+    .applicationButton:hover {
+        background: #d2d0d0;
+
+    }
+
+    .close {
+        font-family: Arial;
+        color: #fff;
+        line-height: 1.5625em;
+        position: absolute;
+        top:0;
+        right: 0;
+        text-align: center;
+        padding: 0.3125em 0.625em;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 1.5s;
+    }
+    .close:hover {
+        background: #fff;
+        color: #000;
+    }
+
+
+    /*конец*/
     .contData {
         margin: 1.5em auto;
     }

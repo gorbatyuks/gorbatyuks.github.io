@@ -102,10 +102,10 @@ a {
     }
     .horisontalLine {
         color: #fff;
-        height: 4px;
-        border-radius: 2px;
+        height: 0.25em;
+        border-radius: 0.125em;
         width: 60%;
-        margin: 30px auto;
+        margin: 1.875em auto;
         background: linear-gradient(135deg, #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%);
             }
     h3 {
@@ -162,14 +162,13 @@ a {
         background-color: #d2d0d0;
         color: #000;
         padding: 0 1.5625em;
-        /*display: block;*/
         display: flex;
     }
     .footerRights {
         flex: 1;
-        font-size: 0.8em;
+        font-size: .8em;
         display: inline-block;
-        padding: 0.9em 0;
+        padding: .9em 0;
     }
     .footerContact {
         flex: 1;
@@ -177,12 +176,11 @@ a {
         display: table-cell;
         vertical-align: middle;
         font-size: larger;
-        margin-bottom: 0.3125em;
+        margin-bottom: .3125em;
     }
      .facebookLink {
-
           position: relative;
-          right: 0.3125em;
-          bottom: -0.3125em;
+          right: .3125em;
+          bottom: -.3125em;
       }
 }
