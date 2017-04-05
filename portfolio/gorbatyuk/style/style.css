@@ -1,15 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-       }
-a{
+}
+
+a {
     text-decoration: none;
     color: #fff;
 }
-@media all and (min-width: 48em) {
 
+@media all and (min-width: 48em) {
     .header {
         background-color: #d2d0d0;
         position: fixed;
@@ -21,18 +22,19 @@ a{
         padding: 0 0.625em;
         z-index: 500;
     }
-/*МЕНЯ*/
-
-    a{ text-decoration: none;}
-    .headNav{
+    /*МЕНЯ*/
+    a {
+        text-decoration: none;
+    }
+    .headNav {
         display: inline-block;
         padding-top: 0.3125em;
-        font-size:0.8em;
+        font-size: 0.8em;
     }
-    .hedNav li{
+    .hedNav li {
         list-style-type: none;
     }
-    .subMenu{
+    .subMenu {
         display: none;
         position: absolute;
         right: 27.5em;
@@ -41,10 +43,10 @@ a{
         background: #D2D0D0;
         padding: 0.3125em 0.3125em;
     }
-    .subMenu:hover{
-        display:block;
+    .subMenu:hover {
+        display: block;
     }
-    .headNavSub:hover ~.subMenu{
+    .headNavSub:hover ~.subMenu {
         display: block;
     }
     .navItem {
@@ -56,14 +58,13 @@ a{
         border-bottom: 0.125em solid #d2d0d0;
         border-top: 0.125em solid #d2d0d0;
         transition: 1s ease;
-
     }
-    li>.navItem{
+    li>.navItem {
         width: 11.25em;
     }
     .navItem:hover {
         border-bottom: 0.125em solid #545353;
-        border-top:  0.125em solid #545353;
+        border-top: 0.125em solid #545353;
         padding: 0.5em 0.3em;
         cursor: pointer;
     }
@@ -76,13 +77,11 @@ a{
         background-size: 100%;
         box-sizing: border-box;
     }
-
     .flexContainer {
         display: -webkit-flex;
         display: flex;
         flex-flow: row wrap;
     }
-
     .flexItem {
         -webkit-flex: 1;
         flex: 1;
@@ -97,93 +96,79 @@ a{
         border: 0.0625em solid #000;
         transition: letter-spacing 1s, border 1s;
     }
-    .flexItem:hover{
+    .flexItem:hover {
         cursor: pointer;
-        border: 0.0625em solid #323232;color: #ccc;
+        border: 0.0625em solid #323232;
+        color: #ccc;
         letter-spacing: 0.18em;
-
-           }
-    .horisontalLine{
-        color:#fff;
-        height:4px;
-        background-color: #fff;
+    }
+    .horisontalLine {
+        color: #fff;
+        height: 4px;
         border-radius: 2px;
         width: 60%;
         margin: 30px auto;
-        /*тінь*/
-        /*  -webkit-box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);
-        -moz-box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);
-        box-shadow: inset 0px 0px 40px -10px rgba(0,0,0,0.5);*/
-        /*гредіент*/
-    //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c4c4c4+0,c2c2c2+5,c2c2c2+5,c8c8c8+5,cdcdcd+6,565656+14,ababab+22,424242+27,d3d3d3+35,d3d3d3+38,d3d3d3+38,b0b0b0+41,545454+48,b0b0b0+55,d3d3d3+58,d3d3d3+62,d3d3d3+65,d3d3d3+67,d3d3d3+67,d3d3d3+70,bfbfbf+71,494949+76,b0b0b0+80,b0b0b0+80,cecece+82,b0b0b0+85,5b5b5b+89,bababa+96 */
-    background: #c4c4c4; /* Old browsers */
-        background: -moz-linear-gradient(-45deg,  #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(-45deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(135deg,  #c4c4c4 0%,#c2c2c2 5%,#c2c2c2 5%,#c8c8c8 5%,#cdcdcd 6%,#565656 14%,#ababab 22%,#424242 27%,#d3d3d3 35%,#d3d3d3 38%,#d3d3d3 38%,#b0b0b0 41%,#545454 48%,#b0b0b0 55%,#d3d3d3 58%,#d3d3d3 62%,#d3d3d3 65%,#d3d3d3 67%,#d3d3d3 67%,#d3d3d3 70%,#bfbfbf 71%,#494949 76%,#b0b0b0 80%,#b0b0b0 80%,#cecece 82%,#b0b0b0 85%,#5b5b5b 89%,#bababa 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#bababa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+        background: #c4c4c4;
+        /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #c4c4c4 0%, #c2c2c2 5%, #c2c2c2 5%, #c8c8c8 5%, #cdcdcd 6%, #565656 14%, #ababab 22%, #424242 27%, #d3d3d3 35%, #d3d3d3 38%, #d3d3d3 38%, #b0b0b0 41%, #545454 48%, #b0b0b0 55%, #d3d3d3 58%, #d3d3d3 62%, #d3d3d3 65%, #d3d3d3 67%, #d3d3d3 67%, #d3d3d3 70%, #bfbfbf 71%, #494949 76%, #b0b0b0 80%, #b0b0b0 80%, #cecece 82%, #b0b0b0 85%, #5b5b5b 89%, #bababa 96%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#bababa', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
     }
     h3 {
         margin-bottom: 0.625em;
     }
-
     .itemFoto {
         width: 25em;
         height: 11.25em;
         margin: auto;
     }
-
     .mainText {
         margin: 1.25em 3.75em;
     }
-
     .mainTextList {
         padding-left: 5em;
     }
-
     .mainText > p {
         margin: 1.25em 0;
         text-align: center;
     }
-
     .mainText > h3 {
         padding: 0.9375em 0 0.9375em 0.9375em;
     }
-
     /*сторіна ПРОДУЦІЯ*/
     .productList {
         margin-top: 4em;
     }
-
     .productItem {
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-end;
     }
-
-    .productCard, .productFotoList {
+    .productCard,
+    .productFotoList {
         padding: 0.625em;
     }
-
     .productCard {
         flex: 1;
         min-width: 30.625em;
     }
-
     .productFotoList {
         flex: 1;
         min-width: 30.625em;
     }
-
     .productCardImage {
         float: left;
         margin: 1.25em 1.25em 1.25em 0;
     }
-
     .productCardDescription {
         padding: 2.5em 0.625em 0 0;
     }
-/* ФУТЕР*/
+    /* ФУТЕР*/
     .footer {
         background-color: #d2d0d0;
         color: #000;
@@ -191,16 +176,14 @@ a{
         display: block;
         display: -webkit-flex;
         display: flex;
-
     }
-
     .footerRights {
         flex: 1;
         font-size: 0.8em;
         display: inline-block;
         padding-top: 0.9375em;
     }
-    .footerContact{
+    .footerContact {
         flex: 1;
         text-align: right;
         display: table-cell;
@@ -208,10 +191,10 @@ a{
         font-size: larger;
         margin-bottom: 0.3125em;
     }
-   /* .footerContact:after {
-        content: url(../image/facebook.png);
-        position: relative;
-        right: 0.3125em;
-        bottom: -0.3125em;
-    }*/
+    /* .footerContact:after {
+          content: url(../image/facebook.png);
+          position: relative;
+          right: 0.3125em;
+          bottom: -0.3125em;
+      }*/
 }
