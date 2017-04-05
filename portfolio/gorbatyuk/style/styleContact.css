@@ -118,7 +118,7 @@ a {
         display: block;
 
     }
-    #applicationName, #applicationTime, #applicationTelephone {
+   #applicationName, #applicationTime, #applicationTelephone {
         width: 80%;
         height: 73px;
         background: none;
