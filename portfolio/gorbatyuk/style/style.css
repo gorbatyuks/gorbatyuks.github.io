@@ -14,48 +14,61 @@
         background-color: #000;
         color: #fff;
         font-family: 'Open Sans', sans-serif;
-       /* font-size: 0.8em;*/
+        font-size: 0.8em;
         text-align: justify;
-        padding: 0 7%;
+        padding: 0 7% 15px 7%;
     }
-    p{
-        margin: 5px 0;
+    p, hr, h3{
+        margin: 15px 0;
     }
     .header, .footer{
         background-color: #d2d0d0;
-        padding: 1% 7%;
-    }
-    .headNav {
-        position: relative;
-        min-height: 40px;
-        left: 0;
-        right: auto;
-        transition: 1s;
-        color: #000;
-        text-align: center;
-
-    }
-    .headNav:hover .navItem{
-        display: block;
+        padding: 2% 7%;
+        position:relative;
+        height: 60px;
     }
     .flexItem{
-
         text-align: center;
         padding: 1%;
     }
-     .itemFoto{
+    .itemFoto{
         width: 90%;
-            }
+    }
+    .facebookLink{
+        height: 60px;
+        margin-left: 50px;
+        vertical-align: bottom;
+    }
+
+    .headNav {
+        color: #000;
+        text-align: center;
+        font-size:1.5em;
+        margin-top: 5px;
+    }
+    .headLogo{
+        position: absolute;
+        right: 30px;
+        width:180px;
+    }
+    .headNav:hover .navItem{
+        display: block;
+        position:relative;
+    }
     .navItem{
-        margin: 10px 35px;
+
+        position: absolute;
         border: 1px solid #fff;
-        padding: 5px 0;
+        color:#000;
+        background-color: #ccc;
+        width: 200px;
+        padding: 8px 0;
         font-size: 1em;
-       display: none;
+        display: none;
     }
     .current {
         display: block;
-            }
+    }
 }
 
 
