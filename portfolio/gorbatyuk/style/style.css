@@ -23,9 +23,13 @@
     }
     .header, .footer{
         background-color: #d2d0d0;
-        padding: 2% 7%;
+        padding: 2.5% 7% 2.5% 15%;
         position:relative;
         height: 60px;
+    }
+    .footer{text-align: right;
+        font-size:2.5em;
+
     }
     .flexItem{
         text-align: center;
@@ -43,13 +47,13 @@
     .headNav {
         color: #000;
         text-align: center;
-        font-size:1.5em;
-        margin-top: 5px;
+        font-size:3em;
+
     }
     .headLogo{
         position: absolute;
-        right: 30px;
-        width:180px;
+        right: 130px;
+
     }
     .headNav:hover .navItem{
         display: block;
@@ -61,7 +65,7 @@
         border: 1px solid #fff;
         color:#000;
         background-color: #ccc;
-        width: 200px;
+        width: 300px;
         padding: 8px 0;
         font-size: 1em;
         display: none;
