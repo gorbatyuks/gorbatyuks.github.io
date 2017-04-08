@@ -26,8 +26,8 @@
         position: relative;
     }
     .header{
-        padding: 10px 7%;
-        height: 75px;
+        padding: 15px 7%;
+       /* height: 75px;*/
     }
     .footer{
        text-align: right;
@@ -48,11 +48,11 @@
     }
 
     .headNav {
-        position: absolute;
+      /*  position: absolute;*/
         color: #000;
         text-align: center;
         font-size:3em;
-        margin-left: 30px;
+        margin-left: 40px;
         width: 400px;
 
     }
