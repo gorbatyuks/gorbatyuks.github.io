@@ -1,4 +1,88 @@
-* {
+@media screen and (max-device-width: 48em) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .subMenu, .footerRights, .Window{
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    section{
+        background-color: #000;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        text-align: center;
+        padding: 15px 7% 15px 7%;
+    }
+    img{
+        width: 90%;
+        margin: 10px 0;
+    }
+    p, hr, h3{
+        margin: 15px 0;
+    }
+    .header, .footer{
+        background-color: #d2d0d0;
+        position: relative;
+    }
+    .header{
+        padding: 15px 7%;
+    }
+    .footer{
+        text-align: right;
+        padding: 10px 7% 20px 0;
+
+    }
+    .facebookLink{
+        height: 60px;
+        width: 60px;
+        vertical-align: bottom;
+    }
+    .flexItem{
+        text-align: center;
+        padding: 1%;
+    }
+    .itemFoto{
+        width: 90%;
+    }
+    .headNav {
+        color: #000;
+        text-align: center;
+        font-size:3em;
+        margin-left: 40px;
+        width: 400px;
+
+    }
+    .headLogo{
+        position: absolute;
+        right: 130px;
+        top: 15px;
+
+    }
+    .headNav:hover .navItem{
+        display: block;
+        position:relative;
+    }
+    .navItem{
+        position: relative;
+        border: 1px solid #fff;
+        color:#000;
+        background-color: #ccc;
+        padding: 8px 25px;
+        font-size: 1em;
+        display: none;
+    }
+    .current {
+        display: block;
+    }
+}
+
+@media all and (min-device-width: 48em) {
+    *{
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -15,7 +99,7 @@ h3 {
     text-transform: uppercase;
 }
 
-@media all and (min-width: 48em) {
+
     .header {
         background-color: #d2d0d0;
         position: fixed;
