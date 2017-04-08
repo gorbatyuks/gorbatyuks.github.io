@@ -23,14 +23,22 @@
     }
     .header, .footer{
         background-color: #d2d0d0;
-        padding: 2.5% 7% 2.5% 15%;
-        position:relative;
-        height: 60px;
+        position: relative;
     }
-    .footer{text-align: right;
-        font-size:2.5em;
+    .header{
+        padding: 10px 7%;
+        height: 75px;
+    }
+    .footer{
+       text-align: right;
+        padding: 10px 7% 20px 0;
 
     }
+    .facebookLink{
+        height: 60px;
+        vertical-align: bottom;
+    }
+
     .flexItem{
         text-align: center;
         padding: 1%;
@@ -38,21 +46,20 @@
     .itemFoto{
         width: 90%;
     }
-    .facebookLink{
-        height: 60px;
-        margin-left: 50px;
-        vertical-align: bottom;
-    }
 
     .headNav {
+        position: absolute;
         color: #000;
         text-align: center;
         font-size:3em;
+        margin-left: 30px;
+        width: 400px;
 
     }
     .headLogo{
         position: absolute;
         right: 130px;
+        top: 15px;
 
     }
     .headNav:hover .navItem{
@@ -60,13 +67,12 @@
         position:relative;
     }
     .navItem{
-
-        position: absolute;
+        position: relative;
+        /*width: 400px;*/
         border: 1px solid #fff;
         color:#000;
         background-color: #ccc;
-        width: 300px;
-        padding: 8px 0;
+        padding: 8px 25px;
         font-size: 1em;
         display: none;
     }
