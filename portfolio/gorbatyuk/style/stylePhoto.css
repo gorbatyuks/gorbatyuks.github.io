@@ -1,0 +1,191 @@
+@media screen and (max-device-width: 47.938em){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    body{
+        background-color: #000;
+    }
+    .main{
+        text-align: center;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        padding: 15px 7%;
+
+    }
+    .subMenu, .footerRights, .hoverButton, #phoneUs{
+        display: none;
+    }
+    .header, .footer {
+        background-color: #d2d0d0;
+        padding: 15px 7%;
+    }
+    .facebookLink{
+        width: 57px;
+    }
+    .footer{
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 2.5em;
+
+    }
+    .facebookLink{
+        height: 60px;
+        vertical-align: bottom;
+
+    }
+
+    .header{
+        height: 75px;
+    }
+    .headLogo{
+        position: absolute;
+        right: 130px;
+        top: 20px;
+    }
+    .headNav {
+        text-align: center;
+        font-size:3em;
+        margin-left: 40px;
+        width: 400px;
+        position: absolute;
+    }
+    .navItem{
+        position: relative;
+        border: 1px solid #fff;
+        color:#000;
+        background-color: #ccc;
+        padding: 8px 25px;
+        font-size: 1em;
+        display: none;
+    }
+    .headNav:hover .navItem{
+        display: block;
+        position:relative;
+    }
+    .current {
+        display: block;
+    }
+}
+@media all and (min-device-width: 48.1em){
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .header {
+        background-color: #d2d0d0;
+        position: fixed;
+        display: flex;
+        flex: 1 100%;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 0.625em;
+        z-index: 500;
+    }
+    /*ÌÅÍß*/
+    a {
+        text-decoration: none;
+    }
+    .headNav {
+        display: inline-block;
+        padding-top: 0.3125em;
+        font-size: 0.8em;
+
+    }
+    .hedNav li {
+        list-style-type: none;
+    }
+    .subMenu {
+        display: none;
+        position: absolute;
+        right: 27.5em;
+        top: 3.5em;
+        list-style-type: none;
+        background: #D2D0D0;
+        padding: 0.3125em 0.3125em;
+    }
+    .subMenu:hover {
+        display: block;
+    }
+    .headNavSub:hover ~.subMenu {
+        display: block;
+    }
+    .navItem {
+        text-transform: uppercase;
+        color: #000;
+        text-decoration: none;
+        display: inline-block;
+        padding: 1em 0.3em;
+        border-bottom: 0.125em solid #d2d0d0;
+        border-top: 0.125em solid #d2d0d0;
+        transition: 1s ease;
+    }
+    li>.navItem {
+        width: 11.25em;
+    }
+    .navItem:hover {
+        border-bottom: 0.125em solid #545353;
+        border-top: 0.125em solid #545353;
+        padding: 0.5em 0.3em;
+        cursor: pointer;
+    }
+    .footer {
+        background-color: #d2d0d0;
+        color: #000;
+        padding: 0.313em 1.5625em;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+    .footerRights {
+        flex: 1;
+        font-size: .8em;
+        display: inline-block;
+        padding: .9em 0;
+    }
+    .footerContact {
+        flex: 1;
+        text-align: right;
+        display: table-cell;
+        vertical-align: middle;
+        font-size: larger;
+        margin-bottom: .3125em;
+    }
+    .facebookLink {
+        position: relative;
+        right: .3125em;
+        bottom: -.3125em;
+    }
+
+
+
+    body{
+        background-color: #000;
+    }
+    .main{
+        padding:75px 7% 15px 7%;
+
+        color: #ffffff;
+        text-align: center;
+    }
+
+}

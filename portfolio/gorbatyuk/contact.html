@@ -4,18 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Antica Natura. Натуральные напольные покрития</title>
-    <link href="style/styleContact.css" rel="stylesheet" type="text/css">
+    <link href="style/styleCont2.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
-<body class="wrapper">
+<body>
 <header class="header">
     <div class="headLogo">
         <img src="image/logo.png" alt="Antica Natura logo" />
     </div>
     <nav class="headNav">
-
-        <a class="navItem" href="index.html">Главная</a>
+        <a class="navItem " href="index.html">Главная</a>
         <a class="navItem headNavSub" href="product.html">Продукция</a>
         <ul class="subMenu">
             <li><a class="navItem" href="product.html#engBoard">Двухслойная доска</a></li>
@@ -25,16 +24,14 @@
             <li><a class="navItem" href="product.html#order">Изделия под заказ</a></li>
             <li><a class="navItem" href="colors.html">Цвета и обработка поверхности</a></li>
         </ul>
-
         <a class="navItem" href="photos.html">Портфолио</a>
         <a class="navItem" href="contact.html">О компании</a>
         <a class="navItem" href="inform.html">Информация</a>
-        <a class="navItem" href="contact.html">Контакты</a>
+        <a class="navItem current" href="contact.html">Контакты</a>
 
     </nav>
 </header>
-
-<section>
+<section class="main">
     <p>Antica Natura - компания производитель, натуральных напольных покрытий.</p>
     <p>У нас Вы найдете покрытия для пола из дерева, которые помогут воплотить в реальность Ваши идеи.</p>
     <div class="flexMap">
@@ -65,39 +62,38 @@
     <p>Режим работы:</p>
     <p>Пн-Пт: 10:00 - 19:00</p>
     <p>Сб-Вс: по записи</p>
-    <a class="mailButton" href="#phoneUs">Написать нам</a>
-    <div id="phoneUs">
-        <img src="image/logo.png" alt="логитип"/>
-        <p>Записаться на встречу в удобное</br> для Вас время</p>
+     <div class="hoverButton"><a class="mailButton" href="#phoneUs">Написать нам</a></div>
+       <div id="phoneUs">
+           <img src="image/logo.png" alt="логитип"/>
+           <p>Записаться на встречу в удобное</br> для Вас время</p>
 
-        <form id="application" action=" application.php" method="POST" name=" application ">
+           <form id="application" action="application.php" method="POST" name=" application ">
 
-            <input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
+               <input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
 
-            <input name="time" type="text" id="applicationTime" placeholder="Введите удобное время" required/>
+               <input name="time" type="text" id="applicationTime" placeholder="Введите удобное время" required/>
 
-            <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required />
+               <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required />
 
-            <button class="applicationButton" type="submit" form="application"> Записаться на встречу </button>
-        </form>
-            <p>Мы позвоним в удобное Вам время</p>
-        <a href="#close" title="Закрыть" class="close">X</a>
-    </div>
-<!--
-    <form name="mailex" method="post" ectype="text/plain" action="mailto:7s.gorbatyuk@gmail.com">
-        <input class="mailButton" type="submit" name="submit" value="Написать нам" />
-    </form>
--->
+               <button class="applicationButton" type="submit" form="application"> Записаться на встречу </button>
+           </form>
+               <p>Мы позвоним в удобное Вам время</p>
+           <a href="#close" title="Закрыть" class="close">X</a>
+       </div>
+    <!--
+          <form name="mailex" method="post" ectype="text/plain" action="mailto:7s.gorbatyuk@gmail.com">
+              <input class="mailButton" type="submit" name="submit" value="Написать нам" />
+          </form>
+      -->
 
 </section>
-
 <footer class="footer">
-    <div class="footerLeft">Copyrights &#169; 2017 - Antica Natura. All Rights Reserved
+    <div class="footerRights">Copyrights &#169; 2017 - Antica Natura. All Rights Reserved
     </div>
-    <div class="footerContact"> (067)523-23-10 &emsp; (050)412-70-85&emsp;
-        <a target="_blank" href="https://www.facebook.com/Antica-Natura-1394466953946028/"><img class="facebookLink" src="image/facebook.png" alt="Антика Натура " /></a>
-    </div>
+    <div class="footerContact"> (067)523-23-10 &emsp; (050)412-70-85&emsp; <a target="_blank" href="https://www.facebook.com/Antica-Natura-1394466953946028/"><img
+            class="facebookLink"    src="image/facebook.png" alt="Антика Натура "/></a></div>
 </footer>
+
 
 </body>
 

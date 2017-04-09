@@ -1,52 +1,67 @@
-@media screen and (max-device-width: 48em) {
-     *{
-         margin: 0;
-         padding: 0;
-     }
-     .subMenu, .footerRights{
-         display: none;
-     }
-     a {
-         text-decoration: none;
-         color: #fff;
-     }
-     p, hr, h3{
-           margin: 15px 0;
-       }
+@media screen and (max-device-width: 47.938em){
+    *{
+        margin: 0;
+        padding: 0;
+           }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    p, hr, h3{
+        margin: 15px 0;
+    }
+    body{
+        background-color: #000;
+    }
+    .flexMap{
+        width: 90%;
+        overflow: hidden;
+        margin: auto;
+    }
+    .main{
+        text-align: center;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        padding: 15px 7%;
 
-     .footer{
-         text-align: right;
-         padding: 10px 7% 20px 0;
-     }
-     .facebookLink{
-         height: 60px;
-         vertical-align: bottom;
-     }
-    .header, .footer{
+         }
+    .subMenu, .footerRights, .hoverButton, #phoneUs{
+        display: none;
+    }
+    .header, .footer {
         background-color: #d2d0d0;
+        padding: 15px 7%;
+        }
+    .facebookLink{
+        width: 57px;
+    }
+    .footer{
+        text-align: right;
         position: relative;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+    .facebookLink{
+        height: 60px;
+        vertical-align: bottom;
     }
     .header{
-        padding: 15px 7%;
         height: 75px;
     }
+    .headLogo{
+        position: absolute;
+        right: 130px;
+        top: 20px;
+    }
     .headNav {
-        color: #000;
         text-align: center;
         font-size:3em;
         margin-left: 40px;
         width: 400px;
         position: absolute;
-    }
-    .headLogo{
-        position: absolute;
-        right: 130px;
-        top: 15px;
-
-    }
-    .headNav:hover .navItem{
-        display: block;
-        position:relative;
     }
     .navItem{
         position: relative;
@@ -57,23 +72,14 @@
         font-size: 1em;
         display: none;
     }
+    .headNav:hover .navItem{
+        display: block;
+        position:relative;
+    }
     .current {
         display: block;
     }
-
-    .hoverButton{
-        display: none;
-    }
-    .main{
-        background-color: #000;
-        color: #fff;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
-        text-align: center;
-        padding: 15px 7% 15px 7%;
-    }
 }
-
 @media all and (min-device-width: 48em) {
     * {
         padding: 0;
@@ -190,11 +196,11 @@
         z-index: 10000;
         color: #fff;
     }
-   #phoneUs:target {
+    #phoneUs:target {
         display: block;
 
     }
-   #applicationName, #applicationTime, #applicationTelephone {
+    #applicationName, #applicationTime, #applicationTelephone {
         width: 80%;
         height: 73px;
         background: none;
@@ -206,9 +212,9 @@
     }
 
     /*Стили полей при клике по ним*/
-   /* #applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus {
-        border: 1px solid #30ad64;
-    }*/
+    /* #applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus {
+         border: 1px solid #30ad64;
+     }*/
 
     /*Стили текста, выводящегося в placeholder*/
     ::-webkit-input-placeholder {
@@ -286,15 +292,19 @@
     .footer {
         background-color: #d2d0d0;
         color: #000;
-        padding: 0 1.5625em;
+        padding: 0.313em 1.5625em;
         display: flex;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+
     }
-    .footerLeft {
+    .footerRights {
         flex: 1;
-        font-size: 0.8em;
+        font-size: .8em;
         display: inline-block;
-        padding: 0.9em 0;
-        text-align: left;
+        padding: .9em 0;
     }
     .footerContact {
         flex: 1;
@@ -302,11 +312,11 @@
         display: table-cell;
         vertical-align: middle;
         font-size: larger;
-        margin-bottom: 0.3125em;
+        margin-bottom: .3125em;
     }
     .facebookLink {
         position: relative;
-        right: 0.3125em;
-        bottom: -0.3125em;
+        right: .3125em;
+        bottom: -.3125em;
     }
 }
